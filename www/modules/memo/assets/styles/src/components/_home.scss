@@ -2,9 +2,10 @@
 // Home
 // ==========================================================================
 .c-home {
+	position: relative;
 	background-color: $main-color;
 	min-height: rem(960px);
-	padding-top: rem(200px);
+	padding-top: rem(195px);
 }
 
 .c-home_content {

@@ -5,7 +5,7 @@ html {
 	font-family: $font-family;
 	font-size: $font-size;
 	line-height: $line-height;
-
+	background-color: $gray;
 	color: $color;
 }
 
@@ -35,6 +35,28 @@ a {
 	&:hover {
 		color: $link-hover;
 	}
+}
+
+.o-text {
+	margin-bottom: rem(50px);
+}
+
+.o-watch {
+	position: absolute;
+	right: rem(550px);
+	bottom: rem(420px);
+}
+
+.o-ipad {
+	position: absolute;
+	right: 0;
+	bottom: rem(-260px);
+}
+
+.o-iphone {
+	position: absolute;
+	bottom: rem(-112px);
+	right: rem(870px);
 }
 
 

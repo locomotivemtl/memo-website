@@ -1,13 +1,7 @@
 // ==========================================================================
-// Section
+// What
 // ==========================================================================
-.o-section {
-	&.-blue {
-		background-color: $main-color;
-		color: $white;
-	}
-
-	&.-gray {
-		background-color: $gray;
-	}
+.c-what {
+	padding-top: rem(360px);
+	padding-bottom: rem(230px);
 }

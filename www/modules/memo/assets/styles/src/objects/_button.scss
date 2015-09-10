@@ -3,13 +3,24 @@
 // ==========================================================================
 
 .o-button {
-	padding: 10px;
-	border-radius: rem(40px);
-	padding: 0 rem(20px);
-	background-color: $white;
-	color: $main-color;
+	border-radius: rem(53px);
 	font-size: rem(16px);
-	padding: 17px;
+	padding: 17px 30px;
+	font-weight: $medium;
+
+	&.-arrow {
+		position: relative;
+		padding-left: rem(65px);
+	}
+
+	&.-white {
+		background-color: $white;
+		color: $main-color;
+
+		&:hover {
+			color: $main-color;
+		}
+	}
 
 	&.-green {
 		background-color: $green;
@@ -20,16 +31,25 @@
 			background-color: darken($green, 5%);
 		}
 	}
+}
 
-	&:focus {
+// Arrow
+// ==========================================================================
+.o-button_arrow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 8px;
+	border-radius: 50%;
+	background-color: $gray;
+	width: rem(38px);
+	height: rem(38px);
+	font-size: 0;
+	line-height: rem(38px);
+}
 
-	}
-
-	&:hover {
-
-	}
-
-	&:active {
-
-	}
+.o-button_arrow_icon {
+	width: rem(12px);
+	height: rem(12px);
+	fill: $main-color;
 }
