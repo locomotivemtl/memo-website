@@ -1,0 +1,35 @@
+// ==========================================================================
+// Button objects
+// ==========================================================================
+
+.o-button {
+	padding: 10px;
+	border-radius: rem(40px);
+	padding: 0 rem(20px);
+	background-color: $white;
+	color: $main-color;
+	font-size: rem(16px);
+	padding: 17px;
+
+	&.-green {
+		background-color: $green;
+		color: $white;
+
+		&:hover {
+			color: $white;
+			background-color: darken($green, 5%);
+		}
+	}
+
+	&:focus {
+
+	}
+
+	&:hover {
+
+	}
+
+	&:active {
+
+	}
+}

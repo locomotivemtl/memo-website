@@ -1,0 +1,40 @@
+// ==========================================================================
+// Base
+// ==========================================================================
+html {
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
+
+	color: $color;
+}
+
+::selection {
+	background: $selection;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+
+	height: 1px;
+	margin: 1em 0;
+	padding: 0;
+
+	border: 0;
+	border-top: 1px solid #cccccc;
+}
+
+img, svg {
+	max-width: 100%;
+}
+
+a {
+	color: $link;
+
+	&:hover {
+		color: $link-hover;
+	}
+}
+
+

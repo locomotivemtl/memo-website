@@ -1,0 +1,14 @@
+// ==========================================================================
+// Header main
+// ==========================================================================
+.c-header-main {
+	background-color: $main-color;
+	height: rem(180px);
+	font-size: rem(16px);
+}
+
+.c-header-main_container {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}

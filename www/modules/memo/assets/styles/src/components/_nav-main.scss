@@ -1,0 +1,31 @@
+// ==========================================================================
+// Nav main
+// ==========================================================================
+.c-nav-main {
+	display: inline-block;
+	height: 100%;
+}
+
+.c-nav-main_list {
+	@include list-reset;
+	height: 100%;
+	margin-right: rem(-30px);
+}
+
+.c-nav-main_item {
+	display: inline-block;
+	height: 100%;
+}
+
+.c-nav-main_link {
+	display: block;
+	color: $white;
+	height: 100%;
+	@include flex-center;
+	text-decoration: none;
+	padding: 0 rem(30px);
+
+	&:hover {
+		color: $white;
+	}
+}

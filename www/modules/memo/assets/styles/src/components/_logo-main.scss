@@ -1,0 +1,14 @@
+// ==========================================================================
+// Logo main
+// ==========================================================================
+.c-logo-main {
+	display: inline-block;
+	height: 100%;
+	@include flex-center;
+}
+
+.c-logo-main_image {
+	width: rem(161px);
+	height: rem(56px);
+	fill: $white;
+}
