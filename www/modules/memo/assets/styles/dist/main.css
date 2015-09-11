@@ -979,10 +979,43 @@ h6, .o-h6 {
   padding: 11.1111111111rem 0; }
 
 .c-about_section {
+  position: relative;
   margin-bottom: 11.1111111111rem; }
+  .c-about_section.-reverse {
+    margin-bottom: 0;
+    text-align: right; }
+
+.c-about_text {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  font-size: 1rem;
+  padding-left: 0;
+  width: 26.6666666667rem;
+  text-align: left; }
+  .c-about_section.-reverse .c-about_text {
+    width: 23.8888888889rem; }
+
+.c-about_iphone {
+  position: absolute;
+  top: 6.1111111111rem;
+  right: -10rem; }
+
+.c-about_charcoal_iphone {
+  position: absolute;
+  top: 15rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.c-about_charcoal_macbook {
+  position: absolute;
+  top: 0;
+  left: -11.6666666667rem; }
 
 .c-quote {
-  padding: 6.6666666667rem 0;
+  padding: 10rem 0;
   text-align: center; }
 
 .c-quote_content {

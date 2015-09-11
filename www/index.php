@@ -202,46 +202,59 @@
 			<div class="c-about">
 				<div class="o-container -small">
 					<section class="c-about_section">
-						<h1 class="o-h1 -color">Un outil simple à l’ére de son temps</h1>
-						<p>
-							Plusieurs organisations ont adhéré à memo dans le but d'offrir une communication personnalisée, moderne et conviviale à ses citoyens. Serez-vous la prochaine ville à entamer le pas?
-						</p>
-						<strong>Caractéristiques unique à memo</strong>
-						<ul>
-							<li>
-								<span class="u-color">Plateforme adaptative (Responsive)</span>
-							</li>
-							<li>
-								<span class="u-color">Utilisation des meilleurs pratiques de messagerie (CRTC)</span>
-							</li>
-							<li>
-								<span class="u-color">Capacitité de 50 000 textos à l’heure</span>
-							</li>
-							<li>
-								<span class="u-color">Envoie de courriels gratuit en tout temps</span>
-							</li>
-							<li>
-								<span class="u-color">Appels vocaux automatisés facturés à l’utilisation</span>
-							</li>
-							<li>
-								<span class="u-color">Environnement Nuage (Cloud)</span>
-							</li>
-							<li>
-								<span class="u-color">Et beaucoup plus...</span>
-							</li>
-						</ul>
+						<div class="c-about_text">
+							<h1 class="o-h1 -color">Un outil simple <br>à l’ére de son temps</h1>
+							<p class="o-text">
+								Plusieurs organisations ont adhéré à memo dans le but d'offrir une communication personnalisée, moderne et conviviale à ses citoyens. Serez-vous la prochaine ville à entamer le pas?
+							</p>
+							<strong>Caractéristiques unique à memo</strong>
+							<ul>
+								<li>
+									<span class="u-color">Plateforme adaptative (Responsive)</span>
+								</li>
+								<li>
+									<span class="u-color">Utilisation des meilleurs pratiques de messagerie (CRTC)</span>
+								</li>
+								<li>
+									<span class="u-color">Capacitité de 50 000 textos à l’heure</span>
+								</li>
+								<li>
+									<span class="u-color">Envoie de courriels gratuit en tout temps</span>
+								</li>
+								<li>
+									<span class="u-color">Appels vocaux automatisés facturés à l’utilisation</span>
+								</li>
+								<li>
+									<span class="u-color">Environnement Nuage (Cloud)</span>
+								</li>
+								<li>
+									<span class="u-color">Et beaucoup plus...</span>
+								</li>
+							</ul>
+						</div>
+						<div class="c-about_iphone">
+							<img src="modules/memo/assets/images/iphone-angle.png">
+						</div>
 					</section>
-					<section>
-						<h1 class="o-h1 -color">Une interface de gestion efficace</h1>
-						<p>
-							Rien n’a été laissé au harard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
-						</p>
-						<a class="o-button -white -arrow" href="#">
-							<span class="o-button_arrow">
-								<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
-							</span>
-							Nos clients
-						</a>
+					<section class="c-about_section -reverse">
+						<div class="c-about_text">
+							<h1 class="o-h1 -color">Une interface <br>de gestion efficace</h1>
+							<p class="o-text">
+								Rien n’a été laissé au harard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
+							</p>
+							<a class="o-button -white -arrow" href="#">
+								<span class="o-button_arrow">
+									<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
+								</span>
+								Nos clients
+							</a>
+						</div>
+						<div class="c-about_charcoal_macbook">
+							<img src="modules/memo/assets/images/charcoal-macbook.png">
+						</div>
+						<div class="c-about_charcoal_iphone">
+							<img src="modules/memo/assets/images/charcoal-iphone.png">
+						</div>
 					</section>
 				</div>
 			</div>

@@ -6,5 +6,40 @@
 }
 
 .c-about_section {
+	position: relative;
 	margin-bottom: rem(200px);
+
+	&.-reverse {
+		margin-bottom: 0;
+		text-align: right;
+	}
+}
+
+.c-about_text {
+	@include grid_item;
+	width: rem(480px);
+	text-align: left;
+
+	.c-about_section.-reverse & {
+		width: rem(430px);
+	}
+}
+
+.c-about_iphone {
+	position: absolute;
+	top: rem(110px);
+	right: rem(-180px);
+}
+
+.c-about_charcoal_iphone {
+	position: absolute;
+	top: rem(270px);
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.c-about_charcoal_macbook {
+	position: absolute;
+	top: 0;
+	left: rem(-210px);
 }
