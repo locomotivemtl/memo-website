@@ -32,11 +32,12 @@ $bold: 700;
 $black: #000000;
 $white: #ffffff;
 $main-color: #4f89e9;
+$main-color-dark: #365d9e;
 $green: #87fdb9;
 $gray: #e8e9ea;
 // Specific
-$selection: #3297fd;
-$link: #1a0dab;
+$selection: $main-color;
+$link: $main-color;
 $link-hover: darken(#1a0dab, 10%);
 
 // Spacings
@@ -66,4 +67,5 @@ $to-huge: $from-huge - 1;
 // Transitions
 // ==========================================================================
 $speed: 0.3s;
+$speed-slow: ($speed * 2);
 $easing: linear;

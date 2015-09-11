@@ -2,12 +2,8 @@
 // Section
 // ==========================================================================
 .o-section {
-	&.-blue {
+	&.-color {
 		background-color: $main-color;
 		color: $white;
-	}
-
-	&.-gray {
-		background-color: $gray;
 	}
 }

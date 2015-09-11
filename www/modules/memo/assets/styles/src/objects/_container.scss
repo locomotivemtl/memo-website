@@ -8,4 +8,8 @@
 	margin: 0 auto;
 	padding-right: rem($padding);
 	padding-left: rem($padding);
+
+	&.-small {
+		max-width: rem(1200px) + (rem($padding) * 2);
+	}
 }

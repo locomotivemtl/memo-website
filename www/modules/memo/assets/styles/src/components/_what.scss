@@ -5,3 +5,33 @@
 	padding-top: rem(360px);
 	padding-bottom: rem(230px);
 }
+
+.c-what_content {
+	text-align: right;
+	position: relative;
+}
+
+.c-what_text {
+	display: inline-block;
+	text-align: left;
+	max-width: rem(420px);
+	margin-top: rem(140px);
+}
+
+.c-what_circle {
+	position: absolute;
+	left: 0;
+
+	&.-text {
+		top: 0;
+	}
+
+	&.-voice {
+		top: rem(180px);
+		left: rem(300px);
+	}
+
+	&.-email {
+		top: rem(360px);
+	}
+}

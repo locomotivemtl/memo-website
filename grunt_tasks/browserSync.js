@@ -4,7 +4,7 @@ module.exports = {
 			src : [
 				 'www/modules/memo/assets/styles/dist/*.css'
 				,'www/modules/memo/assets/scripts/dist/*.js'
-				,'www/modules/memo/assets/templates/*.php'
+				,'**/*.php'
 			]
 		},
 		options: {

@@ -1,23 +1,28 @@
 // ==========================================================================
 // Grid
 // ==========================================================================
-@mixin grid {
-	margin-left: -$gutter;
+@mixin grid($grid-gutter: 0) {
 	letter-spacing: normal;
 	font-size: 0;
+	margin-left: -$grid-gutter;
 }
-.grid {
+.o-grid {
 	@include grid;
+
+	&.-margin {
+		margin-left: rem(-$unit);
+	}
 }
 
-@mixin grid__item {
+@mixin grid_item($grid-gutter: 0) {
 	display: inline-block;
-	box-sizing: border-box;
-	margin-bottom: $gutter;
-	padding-left: $gutter;
 	width: 100%;
 	vertical-align: top;
-	font-size: 16px;
+	font-size: 1rem;
+	padding-left: $grid-gutter;
+}
+.o-grid_item {
+	@include grid_item;
 }
 
 @mixin whole {

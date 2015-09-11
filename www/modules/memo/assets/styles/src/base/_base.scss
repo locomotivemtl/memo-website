@@ -12,6 +12,7 @@ html {
 ::selection {
 	background: $selection;
 	text-shadow: none;
+	color: $white;
 }
 
 hr {
@@ -37,8 +38,12 @@ a {
 	}
 }
 
+p {
+	margin: rem(30px) 0;
+}
+
 .o-text {
-	margin-bottom: rem(50px);
+	margin-bottom: rem(55px);
 }
 
 .o-watch {

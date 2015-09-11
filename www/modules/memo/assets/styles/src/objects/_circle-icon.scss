@@ -1,0 +1,54 @@
+// ==========================================================================
+// Circle icon
+// ==========================================================================
+.c-circle-icon {
+	position: relative;
+	display: inline-block;
+	width: rem(300px);
+	height: rem(300px);
+	@include flex-center;
+	border-radius: 50%;
+}
+
+.c-circle-icon_border {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 3px solid $main-color;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: transform $speed, border-color $speed;
+	background-color: rgba($gray, 0.9);
+
+	.c-circle-icon:hover & {
+		transform: scale(0.42);
+		border-color: transparent;
+	}
+}
+
+.c-circle-icon_image {
+	position: relative;
+	width: rem($unit);
+	height: rem($unit);
+	fill: $main-color;
+}
+
+.c-circle-icon_background {
+	position: absolute;
+	top: rem(-32px);
+	right: rem(-32px);
+	bottom: rem(-32px);
+	left: rem(-32px);
+	background-size: cover;
+	border-radius: 50%;
+	transform: scale(0.35);
+	opacity: 0;
+	transition: transform $speed, opacity $speed;
+
+	.c-circle-icon:hover & {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
