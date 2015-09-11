@@ -1,0 +1,44 @@
+// ==========================================================================
+// Card
+// ==========================================================================
+.c-card {
+	@include grid;
+	background-color: $white;
+	height: rem(200px);
+	border-radius: 4px;
+	margin-bottom: rem(16px);
+	padding: rem(38px) rem(30px);
+	color: $color-dark;
+}
+
+.c-card_picture {
+	@include grid_item;
+	width: rem(124px);
+	height: rem(124px);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.c-card_content {
+	@include grid_item;
+	width: calc(100% - 124px);
+	padding-left: 25px;
+}
+
+.c-card_name {
+	font-weight: $medium;
+	margin: 0;
+}
+
+.c-card_role {
+	margin: 0;
+	font-size: rem(16px);
+	line-height: 1.3;
+}
+
+.c-card_number {
+	font-size: rem(16px);
+	font-weight: $medium;
+	margin: 0;
+}

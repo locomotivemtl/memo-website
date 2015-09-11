@@ -3,10 +3,17 @@
 // ==========================================================================
 html {
 	font-family: $font-family;
-	font-size: $font-size;
 	line-height: $line-height;
 	background-color: $gray;
 	color: $color;
+
+	@media (max-width: $to-huge) {
+		font-size: 16px;
+	}
+
+	@media (min-width: $from-huge) {
+		font-size: $font-size;
+	}
 }
 
 ::selection {
@@ -19,11 +26,11 @@ hr {
 	display: block;
 
 	height: 1px;
-	margin: 1em 0;
+	margin: rem(10px) 0;
 	padding: 0;
 
 	border: 0;
-	border-top: 1px solid #cccccc;
+	border-top: 1px solid $gray;
 }
 
 img, svg {
@@ -32,14 +39,28 @@ img, svg {
 
 a {
 	color: $link;
+	text-decoration: none;
 
 	&:hover {
-		color: $link-hover;
+		color: $link;
+		text-decoration: underline;
 	}
 }
 
 p {
 	margin: rem(30px) 0;
+}
+
+strong {
+	font-weight: $medium;
+}
+
+ul {
+	padding-left: rem(22px);
+}
+
+li {
+	color: $main-color;
 }
 
 .o-text {

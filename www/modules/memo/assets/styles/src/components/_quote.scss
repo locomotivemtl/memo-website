@@ -1,0 +1,41 @@
+// ==========================================================================
+// Quote
+// ==========================================================================
+.c-quote {
+	padding: rem(120px) 0;
+	text-align: center;
+}
+
+.c-quote_content {
+	display: inline-block;
+	max-width: rem(680px);
+	margin: 0;
+}
+
+.c-quote_picture {
+	display: inline-block;
+	width: rem(206px);
+	height: rem(206px);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin-top: rem(30px);
+}
+
+.c-quote_author {
+	font-size: rem(24px);
+	line-height: 1.4;
+	margin-bottom: rem(15px);
+}
+
+.c-quote_role {
+	font-size: rem(14px);
+	margin-top: 0;
+	margin-bottom: rem(30px);
+}
+
+.c-quote_logo {
+	fill: $white;
+	width: rem(84px);
+	height: rem(39px);
+}

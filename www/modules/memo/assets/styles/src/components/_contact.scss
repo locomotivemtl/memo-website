@@ -1,0 +1,14 @@
+// ==========================================================================
+// Contact
+// ==========================================================================
+.c-contact {
+	@include grid;
+	padding: rem(160px) 0;
+	margin-left: rem(-130px);
+}
+
+.c-contact_item {
+	@include grid_item;
+	width: 50%;
+	padding-left: rem(130px);
+}

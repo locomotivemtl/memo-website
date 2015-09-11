@@ -1,0 +1,17 @@
+// ==========================================================================
+// Clients
+// ==========================================================================
+.c-clients {
+	padding: rem(120px) 0;
+}
+
+.c-clients_list {
+	@include list-reset;
+	@include grid;
+}
+
+.c-clients_item {
+	@include grid_item;
+	width: span(1/6);
+	vertical-align: middle;
+}

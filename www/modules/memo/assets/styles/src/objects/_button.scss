@@ -7,7 +7,7 @@
 	font-size: rem(16px);
 	padding: 17px 30px;
 	font-weight: $medium;
-	transition: background-color $speed;
+	transition: background-color $speed, color $speed;
 
 	&.-arrow {
 		position: relative;
@@ -24,13 +24,14 @@
 		}
 	}
 
-	&.-green {
-		background-color: $green;
-		color: $white;
+	&.-header {
+		border: 2px solid $white;
+		padding: 11px 25px;
+		font-size: rem(14px);
 
 		&:hover {
-			color: $white;
-			background-color: darken($green, 5%);
+			color: $main-color;
+			background-color: $white;
 		}
 	}
 }
@@ -48,6 +49,11 @@
 	height: rem(38px);
 	font-size: 0;
 	line-height: rem(38px);
+	transition: background-color $speed;
+
+	.o-button:hover & {
+		background-color: darken($gray, 5%);
+	}
 }
 
 .o-button_arrow_icon {

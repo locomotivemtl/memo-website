@@ -22,13 +22,13 @@
 	position: relative;
 	text-align: center;
 	display: block;
-	height: rem(160px);
+	height: rem(130px);
 }
 
 .c-interests_icon {
 	fill: $main-color-dark;
-	width: rem($unit);
-	height: rem($unit);
+	width: rem(45px);
+	height: rem(45px);
 	transition: fill $speed, transform $speed;
 
 	.c-interests_category:hover & {

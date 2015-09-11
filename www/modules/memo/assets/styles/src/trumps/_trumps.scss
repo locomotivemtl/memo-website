@@ -1,24 +1,28 @@
 // ==========================================================================
 // Trumps
 // ==========================================================================
-.left {
+.u-left {
 	float: left !important;
 }
 
-.right {
+.u-right {
 	float: right !important;
 }
 
-.align-left {
+.u-align-left {
 	text-align: left !important;
 }
 
-.align-right {
+.u-align-right {
 	text-align: right !important;
 }
 
-.align-center {
+.u-align-center {
 	text-align: center !important;
+}
+
+.u-color{
+	color: $color;
 }
 
 // States

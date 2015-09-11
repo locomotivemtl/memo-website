@@ -1,13 +1,10 @@
 // ==========================================================================
-// Section
+// About
 // ==========================================================================
-.o-section {
-	&.-color {
-		background-color: $main-color;
-		color: $white;
-	}
+.c-about {
+	padding: rem(200px) 0;
+}
 
-	&.-white {
-		background-color: $white;
-	}
+.c-about_section {
+	margin-bottom: rem(200px);
 }
