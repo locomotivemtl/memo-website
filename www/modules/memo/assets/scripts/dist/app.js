@@ -1,4 +1,25 @@
 // ==========================================================================
+// Aniamtions
+// ==========================================================================
+var app = window.app || {};
+
+app.animations = {
+
+    init : function() {
+
+       var wow = new WOW (
+		  {
+		    boxClass:     'js-wow',
+		    animateClass: 'is-animated'
+		  }
+		);
+		wow.init();
+
+    }
+
+};
+
+// ==========================================================================
 // Globals
 // ==========================================================================
 var app = window.app || {};
@@ -7,9 +28,9 @@ app.globals = {
 
     init : function() {
 
-        // Global modules
-        // ==========================================================================
-        // app.parallax.init();
+    	$(window).load(function() {
+    		app.animations.init();
+    	});
 
     }
 
@@ -69,8 +90,8 @@ app.init = function() {
 
 	// Globals
 	// ==========================================================================
-	if (typeof self.Globals === 'object') {
-		self.Globals.init();
+	if (typeof self.globals === 'object') {
+		self.globals.init();
 	}
 
 	// Modules

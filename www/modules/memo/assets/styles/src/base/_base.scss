@@ -22,6 +22,10 @@ html {
 	color: $white;
 }
 
+main {
+	overflow: hidden;
+}
+
 hr {
 	display: block;
 
@@ -83,6 +87,10 @@ li {
 	position: absolute;
 	bottom: rem(-112px);
 	right: rem(870px);
+}
+
+.js-wow {
+	visibility: hidden;
 }
 
 

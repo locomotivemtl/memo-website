@@ -1,15 +1,19 @@
 // ==========================================================================
-// Globals
+// Aniamtions
 // ==========================================================================
 var app = window.app || {};
 
-app.globals = {
+app.animations = {
 
     init : function() {
 
-    	$(window).load(function() {
-    		app.animations.init();
-    	});
+       var wow = new WOW (
+		  {
+		    boxClass:     'js-wow',
+		    animateClass: 'is-animated'
+		  }
+		);
+		wow.init();
 
     }
 

@@ -8,8 +8,7 @@ module.exports = {
 			]
 		},
 		options: {
-			proxy: "localhost",
-			port: 3000,
+			proxy: "localhost:8888",
 			watchTask: true,
 			notify: false
 		}
