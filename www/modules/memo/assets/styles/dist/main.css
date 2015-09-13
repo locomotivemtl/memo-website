@@ -1538,9 +1538,17 @@ h6, .o-h6 {
   width: 16.6666666667%;
   vertical-align: middle; }
 
+.c-clients_link {
+  display: inline-block; }
+
 .c-clients_image {
   width: 9.8888888889rem;
-  height: 3.2777777778rem; }
+  height: 3.2777777778rem;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s; }
+  .c-clients_link:hover .c-clients_image {
+    opacity: 1; }
 
 .c-contact {
   letter-spacing: normal;

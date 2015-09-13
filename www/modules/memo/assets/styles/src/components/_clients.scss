@@ -16,7 +16,17 @@
 	vertical-align: middle;
 }
 
+.c-clients_link {
+	display: inline-block;
+}
+
 .c-clients_image {
 	width: rem(178px);
 	height: rem(59px);
+	opacity: 0.5;
+	transition: opacity $speed;
+
+	.c-clients_link:hover & {
+		opacity: 1;
+	}
 }
