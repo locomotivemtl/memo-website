@@ -69,4 +69,5 @@ $to-huge: $from-huge - 1;
 // ==========================================================================
 $speed: 0.3s;
 $speed-slow: ($speed * 2);
+$speed-slower: ($speed * 3);
 $easing: linear;

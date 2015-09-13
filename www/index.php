@@ -20,7 +20,7 @@
 		<div class="o-page">
 			<header class="c-header-main">
 				<div class="c-header-main_container o-container">
-					<a class="c-logo-main" href="#">
+					<a class="c-logo-main" href="">
 						<div class="c-logo-main_wrap">
 							<span class="c-logo-main_icon u-slideInLeftUp js-wow">
 								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#logo-icon"></use></svg>								
@@ -33,17 +33,23 @@
 					<nav class="c-nav-main">
 						<ul class="c-nav-main_list">
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="#" data-wow-delay="1.60s">Qu’est-ce que memo?</a>
+								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.60s">
+									<span class="c-nav-main_title">Qu’est-ce que memo?</span>
+								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="#" data-wow-delay="1.65s">Caractéristiques</a>
+								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#caracteristiques" data-wow-delay="1.65s">
+									<span class="c-nav-main_title">Caractéristiques</span>
+								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="#" data-wow-delay="1.70s">Clients</a>
+								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#clients" data-wow-delay="1.70s">
+									<span class="c-nav-main_title">Clients</span>
+								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<div class="c-nav-main_link" href="#">
-									<a class="o-button -border" href="#">
+								<div class="c-nav-main_link">
+									<a class="o-button -border js-scrollto" href="#essayer-memo">
 										<span class="o-button_border u-bounceIn js-wow" data-wow-delay="1.75s"></span>
 										<span class="u-fadeIn js-wow" data-wow-delay="1.75s">Essayer memo</span>
 									</a>
@@ -62,7 +68,7 @@
 							<p class="o-text u-fadeInUpSmall js-wow" data-wow-delay="1.0s">
 								Rejoignez facilement <br>vos résidents via courriel, <br>SMS et automate d’appel.
 							</p>
-							<a class="o-button -white -arrow u-fadeInUpSmall js-wow" href="#" data-wow-delay="1.3s">
+							<a class="o-button -white -arrow u-fadeInUpSmall js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.3s">
 								<span class="o-button_arrow">
 									<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 								</span>
@@ -75,7 +81,7 @@
 					<img class="o-iphone u-slideInUpSmall js-wow" src="modules/memo/assets/images/iphone.png" data-wow-delay="1.2s">
 				</section>
 
-				<section class="c-what o-section">
+				<section class="c-what o-section" id="quest-ce-que-memo">
 					<div class="o-container -small">
 						<div class="c-what_content">
 							<div class="c-what_text">
@@ -88,7 +94,7 @@
 										Pratique, fiable et instantané, memo rend plus accessibles les informations liées à la vie municipale et aux activités de leur citoyens.
 									</p>
 								</div>
-								<a class="o-button -white -arrow" href="#">
+								<a class="o-button -white -arrow js-scrollto" href="#caracteristiques">
 									<span class="o-button_arrow">
 										<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 									</span>
@@ -236,7 +242,7 @@
 					</div>
 				</section>
 
-				<section class="o-section">
+				<section class="o-section" id="caracteristiques">
 					<div class="c-about">
 						<div class="o-container -small">
 							<section class="c-about_section">
@@ -280,7 +286,7 @@
 									<p class="o-text">
 										Rien n’a été laissé au harard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
 									</p>
-									<a class="o-button -white -arrow" href="#">
+									<a class="o-button -white -arrow js-scrollto" href="#clients">
 										<span class="o-button_arrow">
 											<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 										</span>
@@ -320,34 +326,34 @@
 					</div>
 				</section>
 
-				<section class="o-section -white">
+				<section class="o-section -white" id="clients">
 					<div class="c-clients">
 						<div class="o-container">
 							<ul class="c-clients_list">
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.05s"><img src="modules/memo/assets/images/client_01.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.textotacl.com/" data-wow-delay="0.05s"><img src="modules/memo/assets/images/client_01.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.10s"><img src="modules/memo/assets/images/client_02.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.smsplumobile.com/" data-wow-delay="0.10s"><img src="modules/memo/assets/images/client_02.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.15s"><img src="modules/memo/assets/images/client_03.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img src="modules/memo/assets/images/client_03.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.20s"><img src="modules/memo/assets/images/client_04.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.alertescitoyennes.com/montreal/" data-wow-delay="0.20s"><img src="modules/memo/assets/images/client_04.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.25s"><img src="modules/memo/assets/images/client_05.png"></a>
+									<a class="u-fadeIn js-wow" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" data-wow-delay="0.25s"><img src="modules/memo/assets/images/client_05.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="#" data-wow-delay="0.30s"><img src="modules/memo/assets/images/client_06.png"></a>
+									<a class="u-fadeIn js-wow" href="http://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img src="modules/memo/assets/images/client_06.png"></a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</section>
 
-				<section class="o-section -gray">
+				<section class="o-section -gray" id="essayer-memo">
 					<div class="o-container -small">
 						<div class="c-contact">
 							<div class="c-contact_item">

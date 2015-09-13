@@ -2,7 +2,7 @@
 // Animations
 // ==========================================================================
 .is-animated {
-  animation-duration: 0.9s;
+  animation-duration: $speed-slower;
   animation-fill-mode: both;
 }
 

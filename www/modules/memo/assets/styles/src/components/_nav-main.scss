@@ -27,5 +27,28 @@
 
 	&:hover {
 		color: $white;
+		text-decoration: none;
+	}
+}
+
+.c-nav-main_title {
+	position: relative;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		right: 0;
+		bottom: rem(-5px);
+		left: 0;
+		border-bottom: 2px solid $white;
+		transform: scaleX(0);
+		transform-origin: center left;
+		transition: transform $speed-slow;
+	}
+
+	.c-nav-main_link:hover & {
+		&::after {
+			transform: scaleX(1);	
+		}
 	}
 }
