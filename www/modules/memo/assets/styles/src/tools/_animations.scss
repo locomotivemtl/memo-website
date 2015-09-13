@@ -12,7 +12,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -31,7 +31,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -44,13 +44,32 @@
   animation-name: slideInLeftSmall;
 }
 
+@keyframes slideInLeftUp {
+  from {
+    transform: translate3d(-400%, 400%, 0);
+    opacity: 0;
+  }
+
+  50% {
+  	opacity: 1;
+  } 
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.u-slideInLeftUp {
+  animation-name: slideInLeftUp;
+}
+
 @keyframes slideInRight {
   from {
     transform: translate3d(100%, 0, 0);
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -69,7 +88,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -88,7 +107,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -107,7 +126,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -126,7 +145,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -141,11 +160,11 @@
 
 @keyframes slideInDownSmall {
   from {
-    transform: translate3d(0, -30%, 0);
+    transform: translate3d(0, -40%, 0);
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -164,7 +183,7 @@
     opacity: 0;
   }
 
-  25% {
+  50% {
   	opacity: 1;
   } 
 
@@ -175,6 +194,22 @@
 
 .u-slideInRightDown {
   animation-name: slideInRightDown;
+}
+
+@keyframes fadeInUpSmall {
+  from {
+    transform: translate3d(0, 50%, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.u-fadeInUpSmall {
+  animation-name: fadeInUpSmall;
 }
 
 @keyframes bounceIn {

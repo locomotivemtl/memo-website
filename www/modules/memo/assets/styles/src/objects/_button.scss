@@ -24,8 +24,8 @@
 		}
 	}
 
-	&.-header {
-		border: 2px solid $white;
+	&.-border {
+		position: relative;
 		padding: 11px 25px;
 		font-size: rem(14px);
 		border-radius: rem(42px);
@@ -35,6 +35,16 @@
 			background-color: $white;
 		}
 	}
+}
+
+.o-button_border {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border: 2px solid $white;
+	border-radius: rem(42px);
 }
 
 // Arrow

@@ -2,14 +2,48 @@
 // Logo main
 // ==========================================================================
 .c-logo-main {
+	position: relative;
 	display: inline-block;
 	height: 100%;
 	@include flex-center;
+	z-index: 900;
 }
 
-.c-logo-main_image {
+.c-logo-main_wrap {
+	position: relative;
 	width: rem(161px);
 	height: rem(56px);
-	fill: $white;
 	margin-bottom: rem(20px);
+	display: block;
+}
+
+%c-logo-main_image {
+	position: absolute;
+
+	svg {
+		fill: $white;
+	}
+}
+
+.c-logo-main_icon {
+	@extend %c-logo-main_image;
+	display: inline-block;
+	top: 0;
+	left: 0;
+
+	svg {
+		width: rem(77px);
+		height: rem(45px);
+	}
+}
+
+.c-logo-main_text {
+	@extend %c-logo-main_image;
+	bottom: 0;
+	right: 0;
+
+	svg {
+		width: rem(99px);
+		height: rem(18px);
+	}
 }

@@ -9,7 +9,7 @@
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -20,7 +20,7 @@
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -35,7 +35,7 @@
     -webkit-transform: translate3d(-25%, 0, 0);
             transform: translate3d(-25%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -46,7 +46,7 @@
     -webkit-transform: translate3d(-25%, 0, 0);
             transform: translate3d(-25%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -56,12 +56,38 @@
   -webkit-animation-name: slideInLeftSmall;
           animation-name: slideInLeftSmall; }
 
+@-webkit-keyframes slideInLeftUp {
+  from {
+    -webkit-transform: translate3d(-400%, 400%, 0);
+            transform: translate3d(-400%, 400%, 0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInLeftUp {
+  from {
+    -webkit-transform: translate3d(-400%, 400%, 0);
+            transform: translate3d(-400%, 400%, 0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); } }
+
+.u-slideInLeftUp {
+  -webkit-animation-name: slideInLeftUp;
+          animation-name: slideInLeftUp; }
+
 @-webkit-keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -72,7 +98,7 @@
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -87,7 +113,7 @@
     -webkit-transform: translate3d(25%, 0, 0);
             transform: translate3d(25%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -98,7 +124,7 @@
     -webkit-transform: translate3d(25%, 0, 0);
             transform: translate3d(25%, 0, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -113,7 +139,7 @@
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -124,7 +150,7 @@
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -139,7 +165,7 @@
     -webkit-transform: translate3d(0, 50%, 0);
             transform: translate3d(0, 50%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -150,7 +176,7 @@
     -webkit-transform: translate3d(0, 50%, 0);
             transform: translate3d(0, 50%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -165,7 +191,7 @@
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -176,7 +202,7 @@
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -188,10 +214,10 @@
 
 @-webkit-keyframes slideInDownSmall {
   from {
-    -webkit-transform: translate3d(0, -30%, 0);
-            transform: translate3d(0, -30%, 0);
+    -webkit-transform: translate3d(0, -40%, 0);
+            transform: translate3d(0, -40%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -199,10 +225,10 @@
 
 @keyframes slideInDownSmall {
   from {
-    -webkit-transform: translate3d(0, -30%, 0);
-            transform: translate3d(0, -30%, 0);
+    -webkit-transform: translate3d(0, -40%, 0);
+            transform: translate3d(0, -40%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -217,7 +243,7 @@
     -webkit-transform: translate3d(75%, -75%, 0);
             transform: translate3d(75%, -75%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -228,7 +254,7 @@
     -webkit-transform: translate3d(75%, -75%, 0);
             transform: translate3d(75%, -75%, 0);
     opacity: 0; }
-  25% {
+  50% {
     opacity: 1; }
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -237,6 +263,30 @@
 .u-slideInRightDown {
   -webkit-animation-name: slideInRightDown;
           animation-name: slideInRightDown; }
+
+@-webkit-keyframes fadeInUpSmall {
+  from {
+    -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+    opacity: 0; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+@keyframes fadeInUpSmall {
+  from {
+    -webkit-transform: translate3d(0, 50%, 0);
+            transform: translate3d(0, 50%, 0);
+    opacity: 0; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+.u-fadeInUpSmall {
+  -webkit-animation-name: fadeInUpSmall;
+          animation-name: fadeInUpSmall; }
 
 @-webkit-keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
@@ -782,9 +832,6 @@ html {
   text-shadow: none;
   color: #ffffff; }
 
-main {
-  overflow: hidden; }
-
 hr {
   display: block;
   height: 1px;
@@ -896,6 +943,9 @@ h6, .o-h6 {
   padding-left: 3.3333333333rem; }
   .o-container.-small {
     max-width: 73.3333333333rem; }
+
+.o-page {
+  overflow: hidden; }
 
 .o-grid {
   letter-spacing: normal;
@@ -1012,14 +1062,23 @@ h6, .o-h6 {
     .o-button.-white:hover {
       color: #4f89e9;
       background-color: #f2f2f2; }
-  .o-button.-header {
-    border: 2px solid #ffffff;
+  .o-button.-border {
+    position: relative;
     padding: 11px 25px;
     font-size: 0.7777777778rem;
     border-radius: 2.3333333333rem; }
-    .o-button.-header:hover {
+    .o-button.-border:hover {
       color: #4f89e9;
       background-color: #ffffff; }
+
+.o-button_border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #ffffff;
+  border-radius: 2.3333333333rem; }
 
 .o-button_arrow {
   position: absolute;
@@ -1142,6 +1201,7 @@ h6, .o-h6 {
   height: 100%; }
 
 .c-logo-main {
+  position: relative;
   display: inline-block;
   height: 100%;
   display: -webkit-box;
@@ -1155,7 +1215,8 @@ h6, .o-h6 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  z-index: 900; }
   .ie9 .c-logo-main {
     font-size: 0; }
     .ie9 .c-logo-main:before {
@@ -1168,11 +1229,32 @@ h6, .o-h6 {
       display: inline-block;
       vertical-align: middle; }
 
-.c-logo-main_image {
+.c-logo-main_wrap {
+  position: relative;
   width: 8.9444444444rem;
   height: 3.1111111111rem;
-  fill: #ffffff;
-  margin-bottom: 1.1111111111rem; }
+  margin-bottom: 1.1111111111rem;
+  display: block; }
+
+.c-logo-main_icon, .c-logo-main_text {
+  position: absolute; }
+  .c-logo-main_icon svg, .c-logo-main_text svg {
+    fill: #ffffff; }
+
+.c-logo-main_icon {
+  display: inline-block;
+  top: 0;
+  left: 0; }
+  .c-logo-main_icon svg {
+    width: 4.2777777778rem;
+    height: 2.5rem; }
+
+.c-logo-main_text {
+  bottom: 0;
+  right: 0; }
+  .c-logo-main_text svg {
+    width: 5.5rem;
+    height: 1rem; }
 
 .c-nav-main {
   display: inline-block;
