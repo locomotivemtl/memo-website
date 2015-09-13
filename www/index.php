@@ -76,9 +76,11 @@
 							</a>
 						</div>
 					</div>
-					<img class="o-watch u-slideInDownSmall js-wow" src="modules/memo/assets/images/watch.png" data-wow-delay="1.3s">
-					<img class="o-ipad u-slideInRight js-wow" src="modules/memo/assets/images/ipad.png" data-wow-delay="1.4s">
-					<img class="o-iphone u-slideInUpSmall js-wow" src="modules/memo/assets/images/iphone.png" data-wow-delay="1.2s">
+					<div class="c-home_devices">
+						<img class="o-watch u-slideInDownSmall js-wow" src="modules/memo/assets/images/watch.png" data-wow-delay="1.3s">
+						<img class="o-ipad u-slideInRight js-wow" src="modules/memo/assets/images/ipad.png" data-wow-delay="1.4s">
+						<img class="o-iphone u-slideInUpSmall js-wow" src="modules/memo/assets/images/iphone.png" data-wow-delay="1.2s">
+					</div>
 				</section>
 
 				<section class="c-what o-section" id="quest-ce-que-memo">
@@ -331,22 +333,22 @@
 						<div class="o-container">
 							<ul class="c-clients_list">
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://www.textotacl.com/" data-wow-delay="0.05s"><img src="modules/memo/assets/images/client_01.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.textotacl.com/" data-wow-delay="0.05s"><img class="c-clients_image" src="modules/memo/assets/images/client_01.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://www.smsplumobile.com/" data-wow-delay="0.10s"><img src="modules/memo/assets/images/client_02.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.smsplumobile.com/" data-wow-delay="0.10s"><img class="c-clients_image" src="modules/memo/assets/images/client_02.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img src="modules/memo/assets/images/client_03.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img class="c-clients_image" src="modules/memo/assets/images/client_03.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://www.alertescitoyennes.com/montreal/" data-wow-delay="0.20s"><img src="modules/memo/assets/images/client_04.png"></a>
+									<a class="u-fadeIn js-wow" href="http://www.alertescitoyennes.com/montreal/" data-wow-delay="0.20s"><img class="c-clients_image" src="modules/memo/assets/images/client_04.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" data-wow-delay="0.25s"><img src="modules/memo/assets/images/client_05.png"></a>
+									<a class="u-fadeIn js-wow" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" data-wow-delay="0.25s"><img class="c-clients_image" src="modules/memo/assets/images/client_05.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="u-fadeIn js-wow" href="http://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img src="modules/memo/assets/images/client_06.png"></a>
+									<a class="u-fadeIn js-wow" href="http://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img class="c-clients_image" src="modules/memo/assets/images/client_06.png"></a>
 								</li>
 							</ul>
 						</div>

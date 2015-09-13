@@ -8,7 +8,7 @@ html {
 	color: $color;
 
 	@media (max-width: $to-huge) {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	@media (min-width: $from-huge) {
@@ -73,20 +73,26 @@ li {
 
 .o-watch {
 	position: absolute;
-	right: rem(550px);
-	bottom: rem(420px);
+	right: em(550px);
+	bottom: em(420px);
+	width: em(239px);
+	height: em(450px);
 }
 
 .o-ipad {
 	position: absolute;
 	right: 0;
-	bottom: rem(-260px);
+	bottom: em(-260px);
+	width: em(787px);
+	height: em(612px);
 }
 
 .o-iphone {
 	position: absolute;
-	bottom: rem(-112px);
-	right: rem(870px);
+	bottom: em(-112px);
+	right: em(870px);
+	width: em(397px);
+	height: em(812px);
 }
 
 .js-wow {

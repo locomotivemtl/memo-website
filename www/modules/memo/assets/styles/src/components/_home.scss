@@ -4,10 +4,24 @@
 .c-home {
 	position: relative;
 	background-color: $main-color;
-	min-height: rem(960px);
-	padding-top: rem(195px);
+
+	@media (max-width: $to-huge) {
+		padding-top: rem(120px);
+		min-height: rem(820px);
+	}
+
+	@media (min-width: $from-huge) {
+		padding-top: rem(195px);
+		min-height: rem(960px);
+	}
 }
 
 .c-home_content {
 	width: rem(360px);
+}
+
+.c-home_devices {
+	@media (max-width: $to-huge) {
+		font-size: 12px;
+	}
 }
