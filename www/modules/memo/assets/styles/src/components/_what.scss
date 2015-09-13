@@ -2,36 +2,70 @@
 // What
 // ==========================================================================
 .c-what {
-	margin-top: rem(130px);
-	padding: rem(230px) 0;
+	padding: 90px 0;
+
+	@media (min-width: $from-small) {
+		margin-top: rem(130px);
+		padding: rem(230px) 0;
+	}
 }
 
 .c-what_content {
-	text-align: right;
 	position: relative;
+
+	@media (min-width: $from-small) {
+		text-align: right;
+	}
 }
 
 .c-what_text {
 	display: inline-block;
 	text-align: left;
 	max-width: rem(420px);
-	margin-top: rem(140px);
+
+	@media (min-width: $from-small) {
+		margin-top: rem(140px);
+	}
+}
+
+.c-what_circles {
+	@media (max-width: $to-small) {
+		margin-top: 30px;
+	}
 }
 
 .c-what_circle {
-	position: absolute;
-	left: 0;
-
-	&.-text {
-		top: 0;
+	&:nth-child(1) {
+		.c-circle-icon_image {
+			margin-left: rem(10px);
+		}
 	}
 
-	&.-voice {
-		top: rem(180px);
-		left: rem(300px);
+	@media (max-width: $to-small) {
+		margin-top: 30px;
+		display: inline-block;
+
+		&:nth-child(2) {
+			position: relative;
+			top: 80px;
+		}
 	}
 
-	&.-email {
-		top: rem(360px);
+	@media (min-width: $from-small) {
+		position: absolute;
+		left: 0;
+
+		&.-text {
+			top: 0;
+		}
+
+		&.-voice {
+			top: rem(180px);
+			left: rem(300px);
+		}
+
+		&.-email {
+			top: rem(360px);
+		}
 	}
 }

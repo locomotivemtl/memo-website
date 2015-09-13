@@ -103,7 +103,7 @@
 									Caractéristiques
 								</a>
 							</div>
-							<div class="c-what_section">
+							<div class="c-what_circles">
 								<div class="c-what_circle -text">
 									<div class="c-circle-icon">
 										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
@@ -111,19 +111,19 @@
 										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-text"></use></svg>
 									</div>
 								</div>
-							</div>
-							<div class="c-what_circle -voice">
-								<div class="c-circle-icon">
-									<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
-									<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.1s"></div>
-									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-voice"></use></svg>
+								<div class="c-what_circle -voice">
+									<div class="c-circle-icon">
+										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
+										<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.1s"></div>
+										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-voice"></use></svg>
+									</div>
 								</div>
-							</div>
-							<div class="c-what_circle -email">
-								<div class="c-circle-icon">
-									<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
-									<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.2s"></div>
-									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-email"></use></svg>
+								<div class="c-what_circle -email">
+									<div class="c-circle-icon">
+										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
+										<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.2s"></div>
+										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-email"></use></svg>
+									</div>
 								</div>
 							</div>
 						</div>

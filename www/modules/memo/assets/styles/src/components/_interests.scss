@@ -2,8 +2,15 @@
 // Interests
 // ==========================================================================
 .c-interests {
-	padding: rem(200px) 0 rem(170px) 0;
 	text-align: center;
+
+	@media (max-width: $to-small) {
+		padding: 90px 0 40px 0;
+	}
+
+	@media (min-width: $from-small) {
+		padding: rem(200px) 0 rem(170px) 0;
+	}
 }
 
 .c-interests_list {
@@ -14,15 +21,30 @@
 
 .c-interests_item {
 	@include grid-item;
-	width: span(1/13);
 	text-align: center;
+
+	@media (max-width: $to-small) {
+		width: span(1/7);
+	}
+
+	@media (min-width: $from-small) {
+		width: span(1/13);
+	}
 }
 
 .c-interests_category {
 	position: relative;
 	text-align: center;
 	display: block;
-	height: rem(130px);
+
+	@media (max-width: $to-small) {
+		height: 70px;
+		margin-bottom: 15px;
+	}
+
+	@media (min-width: $from-small) {
+		height: rem(130px);
+	}
 }
 
 .c-interests_icon {
@@ -49,6 +71,14 @@
 	transform: translateY(#{rem(-20px)});
 	transition: opacity $speed, transform $speed,color $speed;
 	color: $main-color-dark;
+
+	@media (max-width: $to-small) {
+		font-size: 14px;
+	}
+
+	@media (min-width: $from-small) {
+		font-size: rem(24px);
+	}
 
 	.c-interests_category:hover & {
 		opacity: 1;

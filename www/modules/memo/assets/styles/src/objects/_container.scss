@@ -3,14 +3,23 @@
 // ==========================================================================
 .o-container {
 	position: relative;
-
-	max-width: rem($max-width) + (rem($padding) * 2);
 	margin: 0 auto;
-	padding-right: rem($padding);
-	padding-left: rem($padding);
+	
+	@media (max-width: $to-small) {
+		padding-left: $unit-mobile;
+		padding-right: $unit-mobile;
+	}
+
+	@media (min-width: $from-small) {
+		padding-right: rem($padding);
+		padding-left: rem($padding);
+		max-width: rem($max-width) + (rem($padding) * 2);
+	}
 
 	&.-small {
-		max-width: rem(1200px) + (rem($padding) * 2);
+		@media (min-width: $from-small) {
+			max-width: rem(1200px) + (rem($padding) * 2);
+		}
 	}
 }
 

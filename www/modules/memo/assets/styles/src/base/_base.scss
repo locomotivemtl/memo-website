@@ -7,7 +7,11 @@ html {
 	background-color: $gray;
 	color: $color;
 
-	@media (max-width: $to-huge) {
+	@media (max-width: $to-small) {
+		font-size: 12px;
+	} 
+
+	@media (min-width: $from-small) and (max-width: $to-huge) {
 		font-size: 14px;
 	}
 
@@ -72,27 +76,48 @@ li {
 }
 
 .o-watch {
-	position: absolute;
-	right: em(550px);
-	bottom: em(420px);
-	width: em(239px);
-	height: em(450px);
+	@media (max-width: $to-small) {
+		display: none;
+	}
+
+	@media (min-width: $from-small) {
+		position: absolute;
+		right: em(550px);
+		bottom: em(420px);
+		width: em(239px);
+		height: em(450px);
+	}
 }
 
 .o-ipad {
-	position: absolute;
-	right: 0;
-	bottom: em(-260px);
-	width: em(787px);
-	height: em(612px);
+	@media (max-width: $to-small) {
+		display: none;
+	}
+
+	@media (min-width: $from-small) {
+		position: absolute;
+		right: 0;
+		bottom: em(-260px);
+		width: em(787px);
+		height: em(612px);
+	}
 }
 
 .o-iphone {
 	position: absolute;
-	bottom: em(-112px);
-	right: em(870px);
 	width: em(397px);
 	height: em(812px);
+
+	@media (max-width: $to-small) {
+		bottom: em(-112px);
+		right: -30%;
+	}
+
+	@media (min-width: $from-small) {
+		bottom: em(-112px);
+		right: em(870px);
+		
+	}
 }
 
 .js-wow {

@@ -4,10 +4,19 @@
 .c-circle-icon {
 	position: relative;
 	display: inline-block;
-	width: rem(300px);
-	height: rem(300px);
+	
 	@include flex-center;
 	border-radius: 50%;
+
+	@media (max-width: $to-small) {
+		width: 120px;
+		height: 120px;
+	}
+
+	@media (min-width: $from-small) {
+		width: rem(300px);
+		height: rem(300px);
+	}
 }
 
 .c-circle-icon_border {
