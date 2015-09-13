@@ -132,7 +132,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.0s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-place"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Vie municipale</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -140,7 +140,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.05s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-leaf"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Environnement</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -148,7 +148,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.10s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-art"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Culture</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -156,7 +156,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.15s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-garbage"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Collectes</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -164,7 +164,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.20s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-warning"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Urgences</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -172,7 +172,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.25s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-date"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Événements</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -188,7 +188,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.35s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-cone"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Construction</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -196,7 +196,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.40s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-bike"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Pistes cyclables</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -204,7 +204,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.45s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-car"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Circulation</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -212,7 +212,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.50s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-p"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Stationnements</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -220,7 +220,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.55s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-skate"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Patinoires</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -228,7 +228,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.60s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-ball"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Équipes sportives</p>
 									</div>
 								</li>
 							</ul>
