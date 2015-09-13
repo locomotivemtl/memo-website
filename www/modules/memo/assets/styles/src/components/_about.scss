@@ -2,16 +2,32 @@
 // About
 // ==========================================================================
 .c-about {
-	padding: rem(200px) 0;
+	@media (max-width: $to-small) {
+		padding: 90px 0 73px 0;
+	}
+
+	@media (min-width: $from-small) {
+		padding: rem(200px) 0;
+	}
 }
 
 .c-about_section {
 	position: relative;
-	margin-bottom: rem(200px);
+	
+	@media (max-width: $to-small) {
+		margin-bottom: 90px;
+	} 
+
+	@media (min-width: $from-small) {
+		margin-bottom: rem(200px);
+	} 
 
 	&.-reverse {
 		margin-bottom: 0;
-		text-align: right;
+
+		@media (min-width: $from-small) {
+			text-align: right;
+		}
 	}
 }
 
@@ -25,27 +41,57 @@
 	}
 }
 
+.c-about_image {
+	@media (max-width: $to-small) {
+		font-size: 8px;
+		margin-top: 30px;
+	}
+
+	@media (min-width: $from-small) {
+		font-size: 1rem;
+	}
+}
+
 .c-about_iphone {
-	position: absolute;
-	top: rem(110px);
-	right: rem(-180px);
-	width: rem(781px);
-	height: rem(471px);
+	width: em(781px);
+	height: em(471px);
+
+	@media (min-width: $from-small) {
+		position: absolute;
+		top: rem(110px);
+		right: rem(-180px);
+	}
 }
 
 .c-about_charcoal_iphone {
 	position: absolute;
-	top: rem(270px);
-	left: 50%;
-	transform: translateX(-50%);
-	width: rem(237px);
-	height: rem(489px);
+	width: em(237px);
+	height: em(489px);
+
+	@media (max-width: $to-small) {
+		bottom: -100px;
+		right: 0;
+	}
+
+	@media (min-width: $from-small) {
+		top: rem(270px);
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
 
 .c-about_charcoal_macbook {
-	position: absolute;
-	top: 0;
-	left: rem(-210px);
-	width: rem(889px);
-	height: rem(512px);
+	width: em(889px);
+	height: em(512px);
+
+	@media (max-width: $to-small) {
+		margin-top: 60px;
+		margin-left: -38px;
+	}
+
+	@media (min-width: $from-small) {
+		position: absolute;
+		top: 0;
+		left: rem(-210px);
+	}
 }

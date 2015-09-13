@@ -278,8 +278,10 @@
 										</li>
 									</ul>
 								</div>
-								<div class="c-about_iphone u-slideInRightDown js-wow" data-wow-delay="0.05s">
-									<img src="modules/memo/assets/images/iphone-angle.png">
+								<div class="c-about_image">
+									<div class="c-about_iphone u-slideInRightDown js-wow" data-wow-delay="0.05s">
+										<img src="modules/memo/assets/images/iphone-angle.png">
+									</div>
 								</div>
 							</section>
 							<section class="c-about_section -reverse">
@@ -295,11 +297,13 @@
 										Nos clients
 									</a>
 								</div>
-								<div class="c-about_charcoal_macbook">
-									<img class="u-slideInLeft js-wow" src="modules/memo/assets/images/charcoal-macbook.png">
-								</div>
-								<div class="c-about_charcoal_iphone">
-									<img class="u-slideInUpSmall js-wow" src="modules/memo/assets/images/charcoal-iphone.png">
+								<div class="c-about_image">
+									<div class="c-about_charcoal_macbook">
+										<img class="u-slideInLeft js-wow" src="modules/memo/assets/images/charcoal-macbook.png">
+									</div>
+									<div class="c-about_charcoal_iphone">
+										<img class="u-slideInUpSmall js-wow" src="modules/memo/assets/images/charcoal-iphone.png">
+									</div>
 								</div>
 							</section>
 						</div>

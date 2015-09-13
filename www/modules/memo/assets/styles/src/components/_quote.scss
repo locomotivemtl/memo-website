@@ -2,8 +2,15 @@
 // Quote
 // ==========================================================================
 .c-quote {
-	padding: rem(180px) 0;
 	text-align: center;
+	
+	@media (max-width: $to-small) {
+		padding: 110px 0 90px 0;
+	}
+
+	@media (min-width: $from-small) {
+		padding: rem(180px) 0;
+	}
 }
 
 .c-quote_content {

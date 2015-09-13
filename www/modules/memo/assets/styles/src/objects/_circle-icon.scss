@@ -31,9 +31,11 @@
 	transition: transform $speed, border-color $speed;
 	background-color: rgba($gray, 0.9);
 
-	.c-circle-icon:hover & {
-		transform: scale(0.42);
-		border-color: transparent;
+	@media (min-width: $from-small) {
+		.c-circle-icon:hover & {
+			transform: scale(0.42);
+			border-color: transparent;
+		}
 	}
 }
 
@@ -56,8 +58,11 @@
 	opacity: 0;
 	transition: transform $speed, opacity $speed;
 
-	.c-circle-icon:hover & {
-		opacity: 1;
-		transform: scale(1);
+
+	@media (min-width: $from-small) {
+		.c-circle-icon:hover & {
+			opacity: 1;
+			transform: scale(1);
+		}
 	}
 }

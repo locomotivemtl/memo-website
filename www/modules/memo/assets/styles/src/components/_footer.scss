@@ -3,8 +3,15 @@
 // ==========================================================================
 .c-footer {
 	text-align: center;
-	padding: rem(65px) 0;
 	font-size: rem(16px);
+
+	@media (max-width: $to-small) {
+		padding: 20px 0;
+	}
+
+	@media (min-width: $from-small) {
+		padding: rem(65px) 0;
+	}
 }
 
 .c-footer_logo {
@@ -19,6 +26,12 @@
 }
 
 .c-footer_text {
-	display: inline-block;
-	margin: 0;
+	@media (max-width: $to-small) {
+		margin: 15px 0;
+	}
+
+	@media (min-width: $from-small) {
+		display: inline-block;
+		margin: 0;
+	}
 }

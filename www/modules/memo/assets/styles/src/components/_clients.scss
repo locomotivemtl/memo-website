@@ -2,7 +2,13 @@
 // Clients
 // ==========================================================================
 .c-clients {
-	padding: rem(120px) 0;
+	@media (max-width: $to-small) {
+		padding: 60px 0 40px 0;
+	}
+
+	@media (min-width: $from-small) {
+		padding: rem(120px) 0;
+	}
 }
 
 .c-clients_list {
@@ -12,8 +18,17 @@
 
 .c-clients_item {
 	@include grid_item;
-	width: span(1/6);
 	vertical-align: middle;
+
+	@media (max-width: $to-small) {
+		width: span(1/3);
+		margin-bottom: 20px;
+		padding-left: 10px;
+	}
+
+	@media (min-width: $from-small) {
+		width: span(1/6);
+	}
 }
 
 .c-clients_link {
@@ -22,7 +37,6 @@
 
 .c-clients_image {
 	width: rem(178px);
-	height: rem(59px);
 	opacity: 0.5;
 	transition: opacity $speed;
 

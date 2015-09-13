@@ -5,7 +5,7 @@
 .o-button {
 	border-radius: rem(53px);
 	font-size: rem(16px);
-	padding: 17px 30px;
+	padding: rem(17px) rem(30px);
 	font-weight: $medium;
 	transition: background-color $speed, color $speed;
 
@@ -26,7 +26,7 @@
 
 	&.-border {
 		position: relative;
-		padding: 11px 25px;
+		padding: rem(11px) rem(25px);
 		font-size: rem(14px);
 		border-radius: rem(42px);
 
@@ -53,7 +53,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 8px;
+	margin: rem(8px);
 	border-radius: 50%;
 	background-color: $gray;
 	width: rem(38px);
@@ -61,6 +61,8 @@
 	font-size: 0;
 	line-height: rem(38px);
 	transition: background-color $speed;
+
+
 
 	.o-button:hover & {
 		background-color: darken($gray, 5%);
