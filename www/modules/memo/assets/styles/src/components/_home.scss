@@ -21,7 +21,9 @@
 }
 
 .c-home_content {
+	position: relative;
 	width: rem(360px);
+	z-index: 800;
 }
 
 .c-home_devices {

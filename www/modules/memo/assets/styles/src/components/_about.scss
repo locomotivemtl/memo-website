@@ -33,7 +33,7 @@
 
 .c-about_text {
 	@include grid_item;
-	width: rem(480px);
+	max-width: rem(480px);
 	text-align: left;
 
 	.c-about_section.-reverse & {

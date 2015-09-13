@@ -1385,7 +1385,9 @@ h6, .o-h6 {
       min-height: 53.3333333333rem; } }
 
 .c-home_content {
-  width: 20rem; }
+  position: relative;
+  width: 20rem;
+  z-index: 800; }
 
 @media (max-width: 767px) {
   .c-home_devices {
@@ -1557,7 +1559,7 @@ h6, .o-h6 {
   vertical-align: top;
   font-size: 1rem;
   padding-left: 0;
-  width: 26.6666666667rem;
+  max-width: 26.6666666667rem;
   text-align: left; }
   .c-about_section.-reverse .c-about_text {
     width: 23.8888888889rem; }
@@ -1745,8 +1747,9 @@ h6, .o-h6 {
   vertical-align: top;
   font-size: 1rem;
   padding-left: 0;
-  width: calc(100% - 124px);
-  padding-left: 25px; }
+  width: calc(100% - 6.8888888889rem);
+  padding-left: 1.3888888889rem;
+  white-space: nowrap; }
 
 .c-card_name {
   font-weight: 500;

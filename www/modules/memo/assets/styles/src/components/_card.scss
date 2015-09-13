@@ -22,8 +22,9 @@
 
 .c-card_content {
 	@include grid_item;
-	width: calc(100% - 124px);
-	padding-left: 25px;
+	width: calc(100% - #{rem(124px)});
+	padding-left: rem(25px);
+	white-space: nowrap;
 }
 
 .c-card_name {
