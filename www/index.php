@@ -39,7 +39,7 @@
 						<ul class="c-nav-main_list">
 							<li class="c-nav-main_item">
 								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.60s">
-									<span class="c-nav-main_title">Qu’est-ce que memo?</span>
+									<span class="c-nav-main_title">À propos</span>
 								</a>
 							</li>
 							<li class="c-nav-main_item">
@@ -52,7 +52,7 @@
 									<span class="c-nav-main_title">Clients</span>
 								</a>
 							</li>
-							<li class="c-nav-main_item">
+							<li class="c-nav-main_item -button">
 								<div class="c-nav-main_link">
 									<a class="o-button -border js-scrollto" href="#essayer-memo">
 										<span class="o-button_border u-bounceIn js-wow" data-wow-delay="1.75s"></span>

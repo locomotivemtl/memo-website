@@ -1359,6 +1359,12 @@ h6, .o-h6 {
   height: 100%;
   margin-right: -1.6666666667rem; }
 
+@media (max-width: 767px) {
+  .c-nav-main_item.-button {
+    position: absolute;
+    bottom: 30px;
+    left: 0; } }
+
 @media (min-width: 768px) {
   .c-nav-main_item {
     height: 100%;
@@ -1370,8 +1376,8 @@ h6, .o-h6 {
   text-decoration: none; }
   @media (max-width: 767px) {
     .c-nav-main_link {
-      padding: 10px 30px;
-      font-size: 16px; } }
+      padding: 5px 30px;
+      font-size: 26px; } }
   @media (min-width: 768px) {
     .c-nav-main_link {
       height: 100%;

@@ -30,8 +30,12 @@
 }
 
 .c-nav-main_item {
-	@media (min-width: $to-small) {
-		
+	@media (max-width: $to-small) {
+		&.-button {
+			position: absolute;
+			bottom: 30px;
+			left: 0;
+		}
 	}
 
 	@media (min-width: $from-small) {
@@ -46,8 +50,8 @@
 	text-decoration: none;
 
 	@media (max-width: $to-small) {
-		padding: 10px 30px;
-		font-size: 16px;
+		padding: 5px 30px;
+		font-size: 26px;
 	}
 
 	@media (min-width: $from-small) {
@@ -64,7 +68,7 @@
 
 .c-nav-main_title {
 	position: relative;
-	
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -79,7 +83,7 @@
 
 	.c-nav-main_link:hover & {
 		&::after {
-			transform: scaleX(1);	
+			transform: scaleX(1);
 		}
 	}
 }
