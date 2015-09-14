@@ -825,6 +825,9 @@ html {
     html {
       font-size: 18px; } }
 
+body.has-nav-open {
+  overflow: hidden; }
+
 ::-moz-selection {
   background: #4f89e9;
   text-shadow: none;
@@ -904,6 +907,29 @@ li {
     .o-iphone {
       bottom: -6.2222222222em;
       right: 48.3333333333em; } }
+
+@media (max-width: 767px) {
+  .o-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 700;
+    -webkit-transition-property: opacity, visibility;
+            transition-property: opacity, visibility;
+    -webkit-transition-duration: 0.6s, 0s;
+            transition-duration: 0.6s, 0s;
+    -webkit-transition-delay: 0s, 0.6s;
+            transition-delay: 0s, 0.6s; }
+    .has-nav-open .o-overlay {
+      opacity: 0.5;
+      visibility: visible;
+      -webkit-transition-delay: 0s;
+              transition-delay: 0s; } }
 
 .js-wow {
   visibility: hidden; }
@@ -1095,10 +1121,17 @@ h6, .o-h6 {
       color: #4f89e9;
       background-color: #f2f2f2; }
   .o-button.-border {
-    position: relative;
-    padding: 0.6111111111rem 1.3888888889rem;
-    font-size: 0.7777777778rem;
-    border-radius: 2.3333333333rem; }
+    position: relative; }
+    @media (max-width: 767px) {
+      .o-button.-border {
+        font-size: 14px;
+        padding: 11px 25px;
+        border-radius: 42px; } }
+    @media (min-width: 768px) {
+      .o-button.-border {
+        font-size: 0.7777777778rem;
+        padding: 0.6111111111rem 1.3888888889rem;
+        border-radius: 2.3333333333rem; } }
     .o-button.-border:hover {
       color: #4f89e9;
       background-color: #ffffff; }
@@ -1301,7 +1334,23 @@ h6, .o-h6 {
   height: 100%; }
   @media (max-width: 767px) {
     .c-nav-main {
-      display: none; } }
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: calc(-100% + 85px);
+      width: calc(100% - 85px);
+      background-color: #4f89e9;
+      z-index: 800;
+      padding-top: 120px;
+      -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+              transform: translateX(0);
+      -webkit-transition: -webkit-transform 0.6s;
+              transition: transform 0.6s; }
+      .has-nav-open .c-nav-main {
+        -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+                transform: translateX(100%); } }
 
 .c-nav-main_list {
   list-style: none;
@@ -1310,39 +1359,46 @@ h6, .o-h6 {
   height: 100%;
   margin-right: -1.6666666667rem; }
 
-.c-nav-main_item {
-  display: inline-block;
-  height: 100%; }
+@media (min-width: 768px) {
+  .c-nav-main_item {
+    height: 100%;
+    display: inline-block; } }
 
 .c-nav-main_link {
   display: block;
   color: #ffffff;
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-  padding: 0 1.6666666667rem; }
-  .ie9 .c-nav-main_link {
-    font-size: 0; }
-    .ie9 .c-nav-main_link:before {
-      display: inline-block;
+  text-decoration: none; }
+  @media (max-width: 767px) {
+    .c-nav-main_link {
+      padding: 10px 30px;
+      font-size: 16px; } }
+  @media (min-width: 768px) {
+    .c-nav-main_link {
       height: 100%;
-      content: "";
-      vertical-align: middle; }
-    .ie9 .c-nav-main_link > * {
-      font-size: 1rem;
-      display: inline-block;
-      vertical-align: middle; }
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 0 1.6666666667rem; }
+      .ie9 .c-nav-main_link {
+        font-size: 0; }
+        .ie9 .c-nav-main_link:before {
+          display: inline-block;
+          height: 100%;
+          content: "";
+          vertical-align: middle; }
+        .ie9 .c-nav-main_link > * {
+          font-size: 1rem;
+          display: inline-block;
+          vertical-align: middle; } }
   .c-nav-main_link:hover {
     color: #ffffff;
     text-decoration: none; }
@@ -1369,6 +1425,41 @@ h6, .o-h6 {
         -ms-transform: scaleX(1);
             transform: scaleX(1); }
 
+@media (max-width: 767px) {
+  .c-nav-main-button {
+    position: absolute;
+    top: 52px;
+    right: 30px;
+    width: 25px;
+    z-index: 600; } }
+
+@media (min-width: 768px) {
+  .c-nav-main-button {
+    display: none; } }
+
+.c-nav-main-button_line {
+  display: block;
+  margin-bottom: 5px;
+  height: 2px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+          transition: transform 0.3s, opacity 0.3s;
+  -webkit-transform-origin: center left;
+      -ms-transform-origin: center left;
+          transform-origin: center left; }
+  .has-nav-open .c-nav-main-button_line:nth-child(1) {
+    -webkit-transform: rotate(43deg) translateY(-2px);
+        -ms-transform: rotate(43deg) translateY(-2px);
+            transform: rotate(43deg) translateY(-2px); }
+  .has-nav-open .c-nav-main-button_line:nth-child(2) {
+    opacity: 0; }
+  .c-nav-main-button_line:nth-child(3) {
+    margin-bottom: 0; }
+    .has-nav-open .c-nav-main-button_line:nth-child(3) {
+      -webkit-transform: rotate(-43deg) translateY(2px);
+          -ms-transform: rotate(-43deg) translateY(2px);
+              transform: rotate(-43deg) translateY(2px); }
+
 .c-home {
   position: relative;
   background-color: #4f89e9; }
@@ -1387,7 +1478,7 @@ h6, .o-h6 {
 .c-home_content {
   position: relative;
   width: 20rem;
-  z-index: 800; }
+  z-index: 700; }
 
 @media (max-width: 767px) {
   .c-home_devices {

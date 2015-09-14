@@ -20,11 +20,11 @@ app.scrollto = {
     			speed = 1200;
     		}
 
-    		console.log(speed);
-
     		$('html, body').animate({
 		        scrollTop: $(targetSection).offset().top
 		    }, speed);
+
+		    $('body').removeClass('has-nav-open');
     	});
 
     }

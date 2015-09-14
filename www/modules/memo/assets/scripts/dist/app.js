@@ -60,11 +60,11 @@ app.scrollto = {
     			speed = 1200;
     		}
 
-    		console.log(speed);
-
     		$('html, body').animate({
 		        scrollTop: $(targetSection).offset().top
 		    }, speed);
+
+		    $('body').removeClass('has-nav-open');
     	});
 
     }
@@ -94,6 +94,24 @@ app.widgets = app.widgets || {};
 app.widgets.generic = {
 
     init : function() {
+
+    }
+
+};
+
+// ==========================================================================
+// Nav main
+// ==========================================================================
+var app = window.app || {};
+app.widgets = app.widgets || {};
+
+app.widgets.navMain = {
+
+    init : function() {
+
+    	$('.js-nav-button').click(function(event) {
+    		$('body').toggleClass('has-nav-open');
+    	});
 
     }
 

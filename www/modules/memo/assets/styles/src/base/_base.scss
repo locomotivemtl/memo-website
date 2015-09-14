@@ -20,6 +20,12 @@ html {
 	}
 }
 
+body {
+	&.has-nav-open {
+		overflow: hidden;
+	}
+}
+
 ::selection {
 	background: $selection;
 	text-shadow: none;
@@ -117,6 +123,29 @@ li {
 		bottom: em(-112px);
 		right: em(870px);
 		
+	}
+}
+
+.o-overlay {
+	@media (max-width: $to-small) {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: $black;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 700;
+		transition-property: opacity, visibility;
+		transition-duration: $speed-slow, 0s;
+		transition-delay: 0s, $speed-slow;
+
+		.has-nav-open & {
+			opacity: 0.5;
+			visibility: visible;
+			transition-delay: 0s;
+		}
 	}
 }
 

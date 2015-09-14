@@ -26,9 +26,18 @@
 
 	&.-border {
 		position: relative;
-		padding: rem(11px) rem(25px);
-		font-size: rem(14px);
-		border-radius: rem(42px);
+
+		@media (max-width: $to-small) {
+			font-size: 14px;
+			padding: 11px 25px;
+			border-radius: 42px;
+		}
+
+		@media (min-width: $from-small) {
+			font-size: rem(14px);
+			padding: rem(11px) rem(25px);
+			border-radius: rem(42px);
+		}
 
 		&:hover {
 			color: $main-color;

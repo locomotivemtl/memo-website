@@ -30,7 +30,12 @@
 							</span>
 						</div>
 					</a>
-					<nav class="c-nav-main">
+					<button class="c-nav-main-button js-nav-button u-fadeIn js-wow" type="button" data-wow-delay="1.4s">
+						<span class="c-nav-main-button_line"></span>
+						<span class="c-nav-main-button_line"></span>
+						<span class="c-nav-main-button_line"></span>
+					</button>
+					<nav class="c-nav-main" data-widget="navMain">
 						<ul class="c-nav-main_list">
 							<li class="c-nav-main_item">
 								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.60s">
@@ -407,6 +412,8 @@
 				</div>
 			</footer>
 		</div>
+
+		<div class="o-overlay js-nav-button"></div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="modules/memo/assets/scripts/dist/jquery-1.11.3.min.js"><\/script>')</script>
