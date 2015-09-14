@@ -4,7 +4,11 @@
 .c-what {
 	padding: 90px 0;
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		padding: rem(220px) 0;
+	}
+
+	@media (min-width: $from-medium) {
 		margin-top: rem(130px);
 		padding: rem(230px) 0;
 	}
@@ -23,7 +27,11 @@
 	text-align: left;
 	max-width: rem(420px);
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		margin-top: rem(120px);
+	}
+
+	@media (min-width: $from-medium) {
 		margin-top: rem(140px);
 	}
 }
@@ -31,24 +39,28 @@
 .c-what_circles {
 	@media (max-width: $to-small) {
 		margin-top: 30px;
+		width: 180px;
 	}
 }
 
 .c-what_circle {
 	&:nth-child(1) {
 		.c-circle-icon_image {
-			margin-left: rem(10px);
+			margin-left: em(10px);
 		}
 	}
 
 	@media (max-width: $to-small) {
 		margin-top: 30px;
-		display: inline-block;
+	}
 
-		&:nth-child(2) {
-			position: relative;
-			top: 80px;
-		}
+	/* @media (min-width: $from-small) and (max-width: $to-medium) {
+		margin-top: 60px;
+	} */
+
+	@media (max-width: $to-small) {
+		display: inline-block;
+		font-size: 5px;
 	}
 
 	@media (min-width: $from-small) {
@@ -60,12 +72,35 @@
 		}
 
 		&.-voice {
-			top: rem(180px);
-			left: rem(300px);
+			top: em(180px);
+			left: em(300px);
 		}
 
 		&.-email {
-			top: rem(360px);
+			top: em(360px);
 		}
+	}
+
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		font-size: 8.5px;
+		margin-top: em(160px);
+	}
+
+	@media (min-width: $from-medium) {
+		font-size: 1rem;
+	}
+
+	&:nth-child(2) {
+		@media (max-width: $to-small) {
+			position: relative;
+		}
+
+		@media (max-width: $to-small) {
+			top: 60px;
+		}
+
+		/* @media (min-width: $from-small) and (max-width: $to-medium) {
+			top: 150px;
+		} */
 	}
 }

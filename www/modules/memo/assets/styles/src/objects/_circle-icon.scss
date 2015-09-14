@@ -4,19 +4,10 @@
 .c-circle-icon {
 	position: relative;
 	display: inline-block;
-	
+	width: em(300px);
+	height: em(300px);
 	@include flex-center;
 	border-radius: 50%;
-
-	@media (max-width: $to-small) {
-		width: 120px;
-		height: 120px;
-	}
-
-	@media (min-width: $from-small) {
-		width: rem(300px);
-		height: rem(300px);
-	}
 }
 
 .c-circle-icon_border {
@@ -41,17 +32,25 @@
 
 .c-circle-icon_image {
 	position: relative;
-	width: rem($unit);
-	height: rem($unit);
 	fill: $main-color;
+
+	@media (max-width: $to-small) {
+		width: em($unit * 1.5);
+		height: em($unit * 1.5);
+	}
+
+	@media (min-width: $from-small) {
+		width: em($unit);
+		height: em($unit);
+	}
 }
 
 .c-circle-icon_background {
 	position: absolute;
-	top: rem(-32px);
-	right: rem(-32px);
-	bottom: rem(-32px);
-	left: rem(-32px);
+	top: em(-32px);
+	right: em(-32px);
+	bottom: em(-32px);
+	left: em(-32px);
 	background-size: cover;
 	border-radius: 50%;
 	transform: scale(0.35);

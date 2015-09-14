@@ -57,6 +57,9 @@
 	@media (min-width: $from-small) {
 		height: 100%;
 		@include flex-center;
+	}
+
+	@media (min-width: $from-small) {
 		padding: 0 rem(30px);
 	}
 

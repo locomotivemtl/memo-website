@@ -8,7 +8,11 @@
 		padding: 90px 0 40px 0;
 	}
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		padding: rem(160px) 0 rem(90px) 0;
+	}
+
+	@media (min-width: $from-medium) {
 		padding: rem(200px) 0 rem(170px) 0;
 	}
 }
@@ -27,7 +31,11 @@
 		width: span(1/7);
 	}
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		width: span(1/7);
+	}
+
+	@media (min-width: $from-medium) {
 		width: span(1/13);
 	}
 }
@@ -42,7 +50,12 @@
 		margin-bottom: 15px;
 	}
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		height: rem(110px);
+		margin-bottom: 15px;
+	}
+
+	@media (min-width: $from-medium) {
 		height: rem(130px);
 	}
 }

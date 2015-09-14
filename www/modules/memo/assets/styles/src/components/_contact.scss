@@ -3,7 +3,6 @@
 // ==========================================================================
 .c-contact {
 	@include grid;
-	margin-left: rem(-130px);
 
 	@media (max-width: $to-small) {
 		padding: 90px 0 60px 0;
@@ -12,11 +11,19 @@
 	@media (min-width: $from-small) {
 		padding: rem(160px) 0;
 	}
+
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		margin-left: rem(-60px);
+	}
+
+	@media (min-width: $from-medium) {
+		margin-left: rem(-130px);
+	}
 }
 
 .c-contact_item {
 	@include grid_item;
-	padding-left: rem(130px);
+
 
 	@media (max-width: $to-small) {
 		margin-bottom: 30px;
@@ -24,5 +31,13 @@
 
 	@media (min-width: $from-small) {
 		width: 50%;
+	}
+
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		padding-left: rem(60px);
+	}
+
+	@media (min-width: $from-medium) {
+		padding-left: rem(130px);
 	}
 }
