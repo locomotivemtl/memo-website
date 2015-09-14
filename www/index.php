@@ -98,7 +98,7 @@
 										Le système de messagerie memo permet de diffuser de courts messages adaptables aux intérêts de vos citoyens, transmis par courriel, SMS et appel automatisé, disponibles en tout temps sur le web.
 									</p>
 									<p>
-										Pratique, fiable et instantané, memo rend plus accessibles les informations liées à la vie municipale et aux activités de leur citoyens.
+										Pratique, fiable et instantané, memo rend plus accessible les informations liées à la vie municipale et aux activités de leur citoyens.
 									</p>
 								</div>
 								<a class="o-button -white -arrow js-scrollto" href="#caracteristiques">
@@ -138,7 +138,7 @@
 				<section class="o-section -color">
 					<div class="c-interests">
 						<div class="o-container">
-							<h1 class="o-h1">Le citoyen ciblé selon <span class="o-h_underline">ses intérèts</span></h1>
+							<h1 class="o-h1">Le citoyen ciblé selon <span class="o-h_underline">ses intérêts</span></h1>
 							<ul class="c-interests_list">
 								<li class="c-interests_item">
 									<div class="c-interests_category">
