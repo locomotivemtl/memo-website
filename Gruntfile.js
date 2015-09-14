@@ -36,7 +36,6 @@ module.exports = function(grunt) {
 		'uglify',
 		'cssmin',
 		'svgmin',
-		'imagemin'
 	]);
 	grunt.registerTask('c', [
 		'csscomb'
