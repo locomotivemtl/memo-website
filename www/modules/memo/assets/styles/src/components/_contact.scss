@@ -27,6 +27,10 @@
 
 	@media (max-width: $to-small) {
 		margin-bottom: 30px;
+
+		br {
+			display: none;
+		}
 	}
 
 	@media (min-width: $from-small) {

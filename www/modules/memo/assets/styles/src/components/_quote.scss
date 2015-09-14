@@ -21,6 +21,12 @@
 	display: inline-block;
 	max-width: rem(680px);
 	margin: 0;
+
+	@media (max-width: $to-small) {
+		br {
+			display: none;
+		}
+	}
 }
 
 .c-quote_picture {
