@@ -3,16 +3,11 @@
 // ==========================================================================
 var app = window.app || {};
 
-app.globals = {
+app.svgs = {
 
     init : function() {
 
-    	app.svgs.init();
-    	app.scrollto.init();
-
-    	$(window).load(function() {
-    		app.animations.init();
-    	});
+    	svg4everybody();
 
     }
 
