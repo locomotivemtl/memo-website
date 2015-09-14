@@ -13,14 +13,14 @@
 
 .c-about_section {
 	position: relative;
-	
+
 	@media (max-width: $to-small) {
 		margin-bottom: 90px;
-	} 
+	}
 
 	@media (min-width: $from-small) {
 		margin-bottom: rem(200px);
-	} 
+	}
 
 	&.-reverse {
 		margin-bottom: 0;
@@ -33,7 +33,7 @@
 
 .c-about_text {
 	@include grid_item;
-	max-width: rem(480px);
+	max-width: rem(490px);
 	text-align: left;
 
 	.c-about_section.-reverse & {

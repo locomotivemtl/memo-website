@@ -1,1 +1,189 @@
-var app=window.app||{};app.animations={init:function(){var a=new WOW({boxClass:"js-wow",animateClass:"is-animated"});a.init()}};var app=window.app||{};app.globals={init:function(){app.scrollto.init(),$(window).load(function(){app.animations.init()})}};var app=window.app||{};app.scrollto={init:function(){$(".js-scrollto").click(function(a){a.preventDefault();var b=$(this),c=b.attr("href"),d=.4*$(c).offset().top;450>d?d=450:d>1200&&(d=1200),$("html, body").animate({scrollTop:$(c).offset().top},d),$("body").removeClass("has-nav-open")})}};var app=window.app||{};app.templates=app.templates||{},app.templates.generic={init:function(){}};var app=window.app||{};app.widgets=app.widgets||{},app.widgets.generic={init:function(){}};var app=window.app||{};app.widgets=app.widgets||{},app.widgets.navMain={init:function(){$(".js-nav-button").click(function(a){$("body").toggleClass("has-nav-open")})}};var app=window.app||{};app.init=function(){"use strict";var a=this;a.params={},a.elements={html:document.documentElement,body:document.body},a.templates=a.templates||{},a.widgets=a.widgets||{},"object"==typeof a.globals&&a.globals.init(),a.params.current_modules=[];for(var b=document.querySelectorAll("[data-app]"),c=0;c<b.length;c++){var d=b[c].getAttribute("data-app");"object"==typeof a[d]&&-1===a.params.current_modules.indexOf(d)&&(a[d].init(),a.params.current_modules.push(d))}a.params.current_template=a.elements.body.getAttribute("data-template"),"object"==typeof a.templates[a.params.current_template]&&a.templates[a.params.current_template].init(),a.params.current_widgets=[];for(var e=document.querySelectorAll("[data-widget]"),f=0;f<e.length;f++){var g=e[f].getAttribute("data-widget");"object"==typeof a.widgets[g]&&-1===a.params.current_widgets.indexOf(g)&&(a.widgets[g].init(),a.params.current_widgets.push(g))}},$(function(){app.init()});
+// ==========================================================================
+// Aniamtions
+// ==========================================================================
+var app = window.app || {};
+
+app.animations = {
+
+    init : function() {
+
+       var wow = new WOW (
+		  {
+		    boxClass:     'js-wow',
+		    animateClass: 'is-animated'
+		  }
+		);
+		wow.init();
+
+    }
+
+};
+
+// ==========================================================================
+// Globals
+// ==========================================================================
+var app = window.app || {};
+
+app.globals = {
+
+    init : function() {
+
+    	app.scrollto.init();
+
+    	$(window).load(function() {
+    		app.animations.init();
+    	});
+
+    }
+
+};
+
+// ==========================================================================
+// Scroll to
+// ==========================================================================
+var app = window.app || {};
+
+app.scrollto = {
+
+    init : function() {
+
+    	$('.js-scrollto').click(function(event) {
+    		event.preventDefault();
+
+    		var $this = $(this);
+    		var targetSection = $this.attr('href');
+    		var speed = $(targetSection).offset().top * 0.4;
+
+    		if (speed < 450) {
+    			speed = 450;
+    		} else if (speed > 1200) {
+    			speed = 1200;
+    		}
+
+    		$('html, body').animate({
+		        scrollTop: $(targetSection).offset().top
+		    }, speed);
+
+		    $('body').removeClass('has-nav-open');
+    	});
+
+    }
+
+};
+
+// ==========================================================================
+// Generic template
+// ==========================================================================
+var app = window.app || {};
+app.templates = app.templates || {};
+
+app.templates.generic = {
+
+    init : function() {
+
+    }
+
+};
+
+// ==========================================================================
+// Generic widget
+// ==========================================================================
+var app = window.app || {};
+app.widgets = app.widgets || {};
+
+app.widgets.generic = {
+
+    init : function() {
+
+    }
+
+};
+
+// ==========================================================================
+// Nav main
+// ==========================================================================
+var app = window.app || {};
+app.widgets = app.widgets || {};
+
+app.widgets.navMain = {
+
+    init : function() {
+
+    	$('.js-nav-button').click(function(event) {
+    		$('body').toggleClass('has-nav-open');
+    	});
+
+    }
+
+};
+
+// ==========================================================================
+// App
+// ==========================================================================
+var app = window.app || {};
+
+app.init = function() {
+
+	'use strict';
+
+	var self = this;
+
+	self.params = {
+
+	};
+
+	self.elements = {
+		html : document.documentElement,
+		body : document.body
+	};
+
+	self.templates = self.templates || {};
+
+	self.widgets = self.widgets || {};
+
+	// Globals
+	// ==========================================================================
+	if (typeof self.globals === 'object') {
+		self.globals.init();
+	}
+
+	// Modules
+	// ==========================================================================
+	self.params.current_modules = [];
+
+	var modules = document.querySelectorAll('[data-app]');
+    for (var m = 0; m < modules.length; m++) {
+        var dataApp = modules[m].getAttribute('data-app');
+        if (typeof self[dataApp] === 'object' && self.params.current_modules.indexOf(dataApp) === -1) {
+            self[dataApp].init();
+            self.params.current_modules.push(dataApp);
+        }
+    }
+
+	// Template
+	// ==========================================================================
+	self.params.current_template = self.elements.body.getAttribute('data-template');
+
+	if (typeof self.templates[ self.params.current_template ] === 'object') {
+		self.templates[ self.params.current_template ].init();
+	}
+
+	// Widgets
+	// ==========================================================================
+	self.params.current_widgets = [];
+
+	var widgets = document.querySelectorAll('[data-widget]');
+	for (var w = 0; w < widgets.length; w++) {
+        var dataWidget = widgets[w].getAttribute('data-widget');
+        if (typeof self.widgets[dataWidget] === 'object' && self.params.current_widgets.indexOf(dataWidget) === -1) {
+            self.widgets[dataWidget].init();
+            self.params.current_widgets.push(dataWidget);
+        }
+    }
+};
+
+// Init
+// ==========================================================================
+$(function() {
+	app.init();
+});

@@ -23,10 +23,10 @@
 					<a class="c-logo-main" href="">
 						<div class="c-logo-main_wrap">
 							<span class="c-logo-main_icon u-slideInLeftUp js-wow">
-								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#logo-icon"></use></svg>								
+								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#logo-icon"></use></svg>
 							</span>
 							<span class="c-logo-main_text u-fadeIn js-wow" data-wow-delay="0.6s">
-								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#logo-text"></use></svg>								
+								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#logo-text"></use></svg>
 							</span>
 						</div>
 					</a>
@@ -98,7 +98,7 @@
 										Le système de messagerie memo permet de diffuser de courts messages adaptables aux intérêts de vos citoyens, transmis par courriel, SMS et appel automatisé, disponibles en tout temps sur le web.
 									</p>
 									<p>
-										Pratique, fiable et instantané, memo rend plus accessible les informations liées à la vie municipale et aux activités de leur citoyens.
+										Pratique, fiable et instantané, memo rend plus accessible les informations liées à la vie municipale et aux activités de leurs citoyens.
 									</p>
 								</div>
 								<a class="o-button -white -arrow js-scrollto" href="#caracteristiques">
@@ -254,7 +254,7 @@
 						<div class="o-container -small">
 							<section class="c-about_section">
 								<div class="c-about_text">
-									<h1 class="o-h1 -color">Un outil simple <br>à l’ére de son temps</h1>
+									<h1 class="o-h1 -color">Un outil simple <br>à l’ère de son temps</h1>
 									<p class="o-text">
 										Plusieurs organisations ont adhéré à memo dans le but d'offrir une communication personnalisée, moderne et conviviale à ses citoyens. Serez-vous la prochaine ville à entamer le pas?
 									</p>
@@ -264,13 +264,13 @@
 											<span class="u-color">Plateforme adaptative (Responsive)</span>
 										</li>
 										<li>
-											<span class="u-color">Utilisation des meilleurs pratiques de messagerie (CRTC)</span>
+											<span class="u-color">Utilisation des meilleures pratiques de messagerie (CRTC)</span>
 										</li>
 										<li>
-											<span class="u-color">Capacitité de 50 000 textos à l’heure</span>
+											<span class="u-color">Capacité de 50 000 textos à l’heure</span>
 										</li>
 										<li>
-											<span class="u-color">Envoie de courriels gratuit en tout temps</span>
+											<span class="u-color">Envois de courriels gratuits en tout temps</span>
 										</li>
 										<li>
 											<span class="u-color">Appels vocaux automatisés facturés à l’utilisation</span>
@@ -293,7 +293,7 @@
 								<div class="c-about_text">
 									<h1 class="o-h1 -color">Une interface <br>de gestion efficace</h1>
 									<p class="o-text">
-										Rien n’a été laissé au harard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
+										Rien n’a été laissé au hasard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
 									</p>
 									<a class="o-button -white -arrow js-scrollto" href="#clients">
 										<span class="o-button_arrow">
@@ -388,7 +388,7 @@
 									<div class="c-card_picture" style="background-image: url('modules/memo/assets/images/chuck.jpg');"></div>
 									<div class="c-card_content">
 										<p class="c-card_name">Charles Dumas</p>
-										<p class="c-card_role">Dévellopement des affaires</p>
+										<p class="c-card_role">Développement des affaires</p>
 										<hr>
 										<p class="c-card_number">(514) 705 4888</p>
 										<a class="c-card_email" href="mailto:charles@locomotive.ca">charles@locomotive.ca</a>
