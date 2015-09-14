@@ -84,17 +84,17 @@
 					<div class="c-home_devices">
 						<div class="o-watch u-slideInDownSmall js-wow" data-wow-delay="1.3s">
 							<img class="o-watch-image" src="modules/memo/assets/images/watch.png">
-							<img class="o-watch-gif" src="modules/memo/assets/images/watch.gif">
+							<img class="o-watch-gif u-fadeIn js-wow" src="modules/memo/assets/images/watch.gif" data-wow-delay="1.8s">
 						</div>
 
 						<div class="o-ipad u-slideInRight js-wow" data-wow-delay="1.4s">
 							<img class="o-ipad-image" src="modules/memo/assets/images/ipad.png">
-							<img class="o-ipad-gif" src="modules/memo/assets/images/ipad.gif">
+							<img class="o-ipad-gif u-fadeIn js-wow" src="modules/memo/assets/images/ipad.gif" data-wow-delay="2s">
 						</div>
 
 						<div class="o-iphone u-slideInUpSmall js-wow" data-wow-delay="1.2s">
 							<img class="o-iphone-image" src="modules/memo/assets/images/iphone.png">
-							<img class="o-iphone-gif" src="modules/memo/assets/images/iphone.gif">
+							<img class="o-iphone-gif u-fadeIn js-wow" src="modules/memo/assets/images/iphone.gif" data-wow-delay="2.2s">
 						</div>
 					</div>
 				</section>
