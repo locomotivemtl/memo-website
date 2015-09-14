@@ -9,7 +9,7 @@ html {
 
 	@media (max-width: $to-small) {
 		font-size: 12px;
-	} 
+	}
 
 	@media (min-width: $from-small) and (max-width: $to-huge) {
 		font-size: 14px;
@@ -88,11 +88,32 @@ li {
 
 	@media (min-width: $from-small) {
 		position: absolute;
+	}
+
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		right: em(60px);
+		bottom: em(420px);
+	}
+
+	@media (min-width: $from-medium) {
 		right: em(550px);
 		bottom: em(420px);
+	}
+}
+
+.o-watch-image {
+	@media (min-width: $from-small) {
 		width: em(239px);
 		height: em(450px);
 	}
+}
+
+.o-watch-gif {
+	position: absolute;
+	top: em(92px);
+	left: em(20px);
+	width: em(195px);
+	border-radius: em(25px);
 }
 
 .o-ipad {
@@ -102,28 +123,63 @@ li {
 
 	@media (min-width: $from-small) {
 		position: absolute;
+	}
+
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		right: rem(-349px);
+		bottom: em(-260px);
+	}
+
+	@media (min-width: $from-medium) {
 		right: 0;
 		bottom: em(-260px);
+	}
+}
+
+.o-ipad-image {
+	@media (min-width: $from-small) {
 		width: em(787px);
 		height: em(612px);
 	}
 }
 
+.o-ipad-gif {
+	position: absolute;
+	top: em(28px);
+	left: em(81px);
+	height: em(534px);
+}
+
 .o-iphone {
 	position: absolute;
-	width: em(397px);
-	height: em(812px);
 
 	@media (max-width: $to-small) {
 		bottom: em(-112px);
 		right: -30%;
 	}
 
-	@media (min-width: $from-small) {
+	@media (min-width: $from-small) and (max-width: $to-medium) {
+		right: em(360px);
+		bottom: em(-112px);
+	}
+
+	@media (min-width: $from-medium) {
 		bottom: em(-112px);
 		right: em(870px);
-		
+
 	}
+}
+
+.o-iphone-image {
+	width: em(397px);
+	height: em(812px);
+}
+
+.o-iphone-gif {
+	position: absolute;
+	width: em(349px);
+	top: em(89px);
+	left: em(27px);
 }
 
 .o-overlay {

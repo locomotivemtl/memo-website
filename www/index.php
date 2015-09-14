@@ -82,9 +82,20 @@
 						</div>
 					</div>
 					<div class="c-home_devices">
-						<img class="o-watch u-slideInDownSmall js-wow" src="modules/memo/assets/images/watch.png" data-wow-delay="1.3s">
-						<img class="o-ipad u-slideInRight js-wow" src="modules/memo/assets/images/ipad.png" data-wow-delay="1.4s">
-						<img class="o-iphone u-slideInUpSmall js-wow" src="modules/memo/assets/images/iphone.png" data-wow-delay="1.2s">
+						<div class="o-watch u-slideInDownSmall js-wow" data-wow-delay="1.3s">
+							<img class="o-watch-image" src="modules/memo/assets/images/watch.png">
+							<img class="o-watch-gif" src="modules/memo/assets/images/watch.gif">
+						</div>
+
+						<div class="o-ipad u-slideInRight js-wow" data-wow-delay="1.4s">
+							<img class="o-ipad-image" src="modules/memo/assets/images/ipad.png">
+							<!-- <img class="o-ipad-gif" src="modules/memo/assets/images/ipad.gif"> -->
+						</div>
+
+						<div class="o-iphone u-slideInUpSmall js-wow" data-wow-delay="1.2s">
+							<img class="o-iphone-image" src="modules/memo/assets/images/iphone.png">
+							<img class="o-iphone-gif" src="modules/memo/assets/images/iphone.gif">
+						</div>
 					</div>
 				</section>
 
