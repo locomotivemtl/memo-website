@@ -89,7 +89,7 @@
 
 						<div class="o-ipad u-slideInRight js-wow" data-wow-delay="1.4s">
 							<img class="o-ipad-image" src="modules/memo/assets/images/ipad.png">
-							<img class="o-ipad-gif" src="modules/memo/assets/images/ipad.gif">
+							<!-- <img class="o-ipad-gif" src="modules/memo/assets/images/ipad.gif"> -->
 						</div>
 
 						<div class="o-iphone u-slideInUpSmall js-wow" data-wow-delay="1.2s">
