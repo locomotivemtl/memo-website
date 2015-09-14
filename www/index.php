@@ -370,7 +370,7 @@
 							<div class="c-contact_item">
 								<h1 class="o-h1 -color">Vous représentez <br>une ville et désirez faire <br>l’essai de memo?</h1>
 								<p>
-									Contactez dès maintenant un de nos représentants pour en connaître d’avantage sur ce service et pour obtenir une demo gratuite. Coordonnez vos opérations en temps réel et rehaussez l'expérience globale de votre ville pour vos citoyens avec memo.
+									Contactez dès maintenant un de nos représentants pour en connaître davantage sur ce service et pour obtenir une demo gratuite. Coordonnez vos opérations en temps réel et rehaussez l'expérience globale de votre ville pour vos citoyens avec memo.
 								</p>
 							</div>
 							<div class="c-contact_item">
