@@ -31,7 +31,11 @@
 		font-size: 10px;
 	}
 
-	@media (min-width: $from-small) and (max-width: $to-huge) {
+	@media (min-width: $from-small) and (max-width: $to-large) {
+		font-size: 9.5px;
+	}
+
+	@media (min-width: $from-large) and (max-width: $to-huge) {
 		font-size: 12px;
 	}
 }

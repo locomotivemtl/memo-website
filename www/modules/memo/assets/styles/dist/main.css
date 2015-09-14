@@ -1484,7 +1484,11 @@ h6, .o-h6 {
   .c-home_devices {
     font-size: 10px; } }
 
-@media (min-width: 768px) and (max-width: 1679px) {
+@media (min-width: 768px) and (max-width: 1279px) {
+  .c-home_devices {
+    font-size: 9.5px; } }
+
+@media (min-width: 1280px) and (max-width: 1679px) {
   .c-home_devices {
     font-size: 12px; } }
 
