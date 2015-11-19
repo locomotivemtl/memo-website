@@ -1,0 +1,42 @@
+<div class="o-page">
+
+    <header class="c-header-main">
+        <div class="c-header-main_container o-container">
+            <a class="c-logo-main" href="">
+                <div class="c-logo-main_wrap">
+                    <span class="c-logo-main_icon u-slideInLeftUp js-wow">
+                        <svg role="img"><use xlink:href="images/dist/svgs.svg#logo-icon"></use></svg>
+                    </span>
+                    <span class="c-logo-main_text u-fadeIn js-wow" data-wow-delay="0.6s">
+                        <svg role="img"><use xlink:href="images/dist/svgs.svg#logo-text"></use></svg>
+                    </span>
+                </div>
+            </a>
+            <button class="c-nav-main-button js-nav-button u-fadeIn js-wow" type="button" data-wow-delay="1.4s">
+                <span class="c-nav-main-button_line"></span>
+                <span class="c-nav-main-button_line"></span>
+                <span class="c-nav-main-button_line"></span>
+            </button>
+            <nav class="c-nav-main" data-widget="navMain">
+                <ul class="c-nav-main_list">
+                    {% set delay = 1.60 %}
+                    {% for item in lang.nav %}
+                    <li class="c-nav-main_item">
+                        <a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="{{ item.link }}" data-wow-delay="{{ delay }}s">
+                            <span class="c-nav-main_title">{{ item.title }}</span>
+                        </a>
+                    </li>
+                    {% set delay += 0.05 %}
+                    {% endfor %}
+                    <li class="c-nav-main_item -button">
+                        <div class="c-nav-main_link">
+                            <a class="o-button -border js-scrollto" href="#essayer-memo">
+                                <span class="o-button_border u-bounceIn js-wow" data-wow-delay="1.75s"></span>
+                                <span class="u-fadeIn js-wow" data-wow-delay="1.75s">Essayer memo</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>

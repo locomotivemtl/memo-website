@@ -1,0 +1,20 @@
+fr:
+  nav:
+    - title: À propos
+      link: #quest-ce-que-memo
+
+    - title: Caractéristiques
+      link: #caracteristiques
+
+    - title: Clients
+      link: #clients
+
+  home:
+    title: Communication <br>instantanée <br>de la ville <br>à ses citoyens</h1>
+    text: Rejoignez facilement <br>vos résidents via courriel, <br>SMS et automate d’appel.
+    button: En savoir plus
+
+  what:
+    title: Qu’est-ce <br>que memo?</h1>
+    text: <p>Le système de messagerie memo permet de diffuser de courts messages adaptables aux intérêts de vos citoyens, transmis par courriel, SMS et appel automatisé, disponibles en tout temps sur le web.</p><p>Pratique, fiable et instantané, memo rend plus accessible les informations liées à la vie municipale et aux activités de leurs citoyens.</p>
+    button: Caractéristiques
