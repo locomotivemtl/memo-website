@@ -37,13 +37,13 @@
 					<nav class="c-nav-main" data-widget="navMain">
 						<ul class="c-nav-main_list">
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.60s">
-									<span class="c-nav-main_title">À propos</span>
+								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#about" data-wow-delay="1.60s">
+									<span class="c-nav-main_title">About</span>
 								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#caracteristiques" data-wow-delay="1.65s">
-									<span class="c-nav-main_title">Caractéristiques</span>
+								<a class="c-nav-main_link u-fadeIn js-wow js-scrollto" href="#features" data-wow-delay="1.65s">
+									<span class="c-nav-main_title">Features</span>
 								</a>
 							</li>
 							<li class="c-nav-main_item">
@@ -52,15 +52,15 @@
 								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="en" data-wow-delay="1.75s">
-									<span class="c-nav-main_title">EN</span>
+								<a class="c-nav-main_link u-fadeIn js-wow" href="/" data-wow-delay="1.75s">
+									<span class="c-nav-main_title">FR</span>
 								</a>
 							</li>
 							<li class="c-nav-main_item -button">
 								<div class="c-nav-main_link">
-									<a class="o-button -border js-scrollto" href="#essayer-memo">
+									<a class="o-button -border js-scrollto" href="#try-memo">
 										<span class="o-button_border u-bounceIn js-wow" data-wow-delay="1.80s"></span>
-										<span class="u-fadeIn js-wow" data-wow-delay="1.75s">Essayer memo</span>
+										<span class="u-fadeIn js-wow" data-wow-delay="1.75s">Try memo</span>
 									</a>
 								</div>
 							</li>
@@ -73,15 +73,17 @@
 				<section class="c-home o-section -color">
 					<div class="o-container">
 						<div class="c-home_content">
-							<h1 class="o-h1 u-fadeInUpSmall js-wow" data-wow-delay="0.8s">Communication <br>instantanée <br>de la ville <br>à ses citoyens</h1>
+							<h1 class="o-h1 u-fadeInUpSmall js-wow" data-wow-delay="0.8s">
+								Instant communication between a city and its citizens
+							</h1>
 							<p class="o-text u-fadeInUpSmall js-wow" data-wow-delay="1.0s">
-								Rejoignez facilement <br>vos résidents via courriel, <br>SMS et automate d’appel.
+								Reach your residents <br>easily by e-mail, SMS <br>and automated calling
 							</p>
-							<a class="o-button -white -arrow u-fadeInUpSmall js-wow js-scrollto" href="#quest-ce-que-memo" data-wow-delay="1.3s">
+							<a class="o-button -white -arrow u-fadeInUpSmall js-wow js-scrollto" href="#about" data-wow-delay="1.3s">
 								<span class="o-button_arrow">
 									<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 								</span>
-								En savoir plus
+								Find out more
 							</a>
 						</div>
 					</div>
@@ -103,24 +105,26 @@
 					</div>
 				</section>
 
-				<section class="c-what o-section" id="quest-ce-que-memo">
+				<section class="c-what o-section" id="about">
 					<div class="o-container -small">
 						<div class="c-what_content">
 							<div class="c-what_text">
-								<h1 class="o-h1 -color">Qu’est-ce <br>que memo?</h1>
+								<h1 class="o-h1 -color">
+									What is memo?
+								</h1>
 								<div class="o-text">
 									<p>
-										Le système de messagerie memo permet de diffuser de courts messages adaptables aux intérêts de vos citoyens, transmis par courriel, SMS et appel automatisé, disponibles en tout temps sur le web.
+										The memo messaging system offers the transmission of short, adaptable messages of interest to your citizens, delivered by e-mail, SMS and automated calling, that remain available on the web at all times.
 									</p>
 									<p>
-										Pratique, fiable et instantané, memo rend plus accessible les informations liées à la vie municipale et aux activités de leurs citoyens.
+										Practical, reliable and instantaneous, memo makes more accessible the information linked to the municipal life and activities of your citizens.
 									</p>
 								</div>
-								<a class="o-button -white -arrow js-scrollto" href="#caracteristiques">
+								<a class="o-button -white -arrow js-scrollto" href="#features">
 									<span class="o-button_arrow">
 										<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 									</span>
-									Caractéristiques
+									Features
 								</a>
 							</div>
 							<div class="c-what_circles">
@@ -153,14 +157,14 @@
 				<section class="o-section -color">
 					<div class="c-interests">
 						<div class="o-container">
-							<h1 class="o-h1">Le citoyen ciblé selon <span class="o-h_underline">ses intérêts</span></h1>
+							<h1 class="o-h1">Each citizen notified <span class="o-h_underline">according to his or her interests</span></h1>
 							<ul class="c-interests_list">
 								<li class="c-interests_item">
 									<div class="c-interests_category">
 										<div class="u-zoomIn js-wow" data-wow-delay="0.0s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-place"></use></svg>
 										</div>
-										<p class="c-interests_label">Vie municipale</p>
+										<p class="c-interests_label">Municipal life</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -168,7 +172,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.05s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-leaf"></use></svg>
 										</div>
-										<p class="c-interests_label">Environnement</p>
+										<p class="c-interests_label">Environment</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -184,7 +188,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.15s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-garbage"></use></svg>
 										</div>
-										<p class="c-interests_label">Collectes</p>
+										<p class="c-interests_label">Waste removal</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -192,7 +196,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.20s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-warning"></use></svg>
 										</div>
-										<p class="c-interests_label">Urgences</p>
+										<p class="c-interests_label">Emergencies</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -200,7 +204,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.25s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-date"></use></svg>
 										</div>
-										<p class="c-interests_label">Événements</p>
+										<p class="c-interests_label">Events</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -208,7 +212,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.30s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-snow"></use></svg>
 										</div>
-										<p class="c-interests_label">Déneigement</p>
+										<p class="c-interests_label">Snow removal</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -224,7 +228,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.40s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-bike"></use></svg>
 										</div>
-										<p class="c-interests_label">Pistes cyclables</p>
+										<p class="c-interests_label">Bike paths</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -232,7 +236,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.45s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-car"></use></svg>
 										</div>
-										<p class="c-interests_label">Circulation</p>
+										<p class="c-interests_label">Traffic</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -240,7 +244,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.50s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-p"></use></svg>
 										</div>
-										<p class="c-interests_label">Stationnements</p>
+										<p class="c-interests_label">Parking</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -248,7 +252,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.55s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-skate"></use></svg>
 										</div>
-										<p class="c-interests_label">Patinoires</p>
+										<p class="c-interests_label">Skating rinks</p>
 									</div>
 								</li>
 								<li class="c-interests_item">
@@ -256,7 +260,7 @@
 										<div class="u-zoomIn js-wow" data-wow-delay="0.60s">
 											<svg class="c-interests_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-ball"></use></svg>
 										</div>
-										<p class="c-interests_label">Équipes sportives</p>
+										<p class="c-interests_label">Team sports</p>
 									</div>
 								</li>
 							</ul>
@@ -264,37 +268,37 @@
 					</div>
 				</section>
 
-				<section class="o-section" id="caracteristiques">
+				<section class="o-section" id="features">
 					<div class="c-about">
 						<div class="o-container -small">
 							<section class="c-about_section">
 								<div class="c-about_text">
-									<h1 class="o-h1 -color">Un outil simple <br>à l’ère de son temps</h1>
+									<h1 class="o-h1 -color">A simple tool, <br>in tune with the times</h1>
 									<p class="o-text">
-										Plusieurs organisations ont adhéré à memo dans le but d'offrir une communication personnalisée, moderne et conviviale à ses citoyens. Serez-vous la prochaine ville à entamer le pas?
+										Many organisms have already signed up with memo to offer personalised, modern and user-friendly information to their citizens. Will your city or town be the next one to join memo?
 									</p>
-									<strong>Caractéristiques unique à memo</strong>
+									<strong>Features unique to memo</strong>
 									<ul>
 										<li>
-											<span class="u-color">Plateforme adaptative (Responsive)</span>
+											<span class="u-color">Responsive platform</span>
 										</li>
 										<li>
-											<span class="u-color">Utilisation des meilleures pratiques de messagerie (CRTC)</span>
+											<span class="u-color">Use of messaging best practices (CRTC)</span>
 										</li>
 										<li>
-											<span class="u-color">Capacité de 50 000 textos à l’heure</span>
+											<span class="u-color">Capacity of 50,000 texts per hour</span>
 										</li>
 										<li>
-											<span class="u-color">Envois de courriels gratuits en tout temps</span>
+											<span class="u-color">Free e-mail transmission at all times</span>
 										</li>
 										<li>
-											<span class="u-color">Appels vocaux automatisés facturés à l’utilisation</span>
+											<span class="u-color">Automated calling billed per use</span>
 										</li>
 										<li>
-											<span class="u-color">Environnement Nuage (Cloud)</span>
+											<span class="u-color">Cloud environment</span>
 										</li>
 										<li>
-											<span class="u-color">Et beaucoup plus...</span>
+											<span class="u-color">And much more...</span>
 										</li>
 									</ul>
 								</div>
@@ -306,15 +310,15 @@
 							</section>
 							<section class="c-about_section -reverse">
 								<div class="c-about_text">
-									<h1 class="o-h1 -color">Une interface <br>de gestion efficace</h1>
+									<h1 class="o-h1 -color">An efficient management interface</h1>
 									<p class="o-text">
-										Rien n’a été laissé au hasard dans la plateforme de messagerie. Un module de recherche intégré, des gabarits personnalisables et des statistiques permettent aux administrateurs un contrôle absolu et une planification en temps réel de leur interventions. Le tout propulsé par Charcoal, un gestionnaire de contenu conçu par Locomotive spécifiquement pour memo.
+										Nothing has been left to chance in the messaging platform. An integrated search module, customizable templates and statistics give the administrators absolute control and real-time planning of their tasks. All of this powered by Charcoal, Locomotive’s own content management system, developed specifically by for memo.
 									</p>
 									<a class="o-button -white -arrow js-scrollto" href="#clients">
 										<span class="o-button_arrow">
 											<svg class="o-button_arrow_icon" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#arrow-down"></use></svg>
 										</span>
-										Nos clients
+										Our clients
 									</a>
 								</div>
 								<div class="c-about_image">
@@ -335,14 +339,14 @@
 						<div class="o-container">
 							<blockquote class="c-quote_content">
 								<p class="o-h2">
-									Memo révolutionne la façon dont les villes <br>et les municipalités <span class="o-h_underline">communiquent</span><br> <span class="o-h_underline">avec leurs citoyens</span>
+									Memo is revolutionising the way municipalities <span class="o-h_underline">communicate</span> <span class="o-h_underline">with their citizens</span>
 								</p>
 								<div class="c-quote_picture u-zoomIn js-wow" style="background-image: url('modules/memo/assets/images/jeff.jpg');" data-wow-delay="0.1s"></div>
 								<p class="c-quote_author">
 									Jean-François <br>Chainé
 								</p>
 								<p class="c-quote_role">
-									Vice-président chez Locomotive
+									Vice-president, Locomotive
 								</p>
 								<a href="http://locomotive.ca">
 									<svg class="c-quote_logo" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#locomotive"></use></svg>
@@ -363,10 +367,10 @@
 									<a class="c-clients_link u-fadeIn js-wow" href="http://www.smsplumobile.com/" data-wow-delay="0.10s"><img class="c-clients_image" src="modules/memo/assets/images/client_02.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img class="c-clients_image" src="modules/memo/assets/images/client_03.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://www.govillemo.ca/en/1/Home" data-wow-delay="0.15s"><img class="c-clients_image" src="modules/memo/assets/images/client_03.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.alertescitoyennes.com/montreal/" data-wow-delay="0.20s"><img class="c-clients_image" src="modules/memo/assets/images/client_04.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://alertescitoyennes.com/montreal/Alertes_Citoyennes-Montreal-en-7" data-wow-delay="0.20s"><img class="c-clients_image" src="modules/memo/assets/images/client_04.png"></a>
 								</li>
 								<li class="c-clients_item">
 									<a class="c-clients_link u-fadeIn js-wow" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" data-wow-delay="0.25s"><img class="c-clients_image" src="modules/memo/assets/images/client_05.png"></a>
@@ -379,13 +383,15 @@
 					</div>
 				</section>
 
-				<section class="o-section -gray" id="essayer-memo">
+				<section class="o-section -gray" id="try-memo">
 					<div class="o-container -small">
 						<div class="c-contact">
 							<div class="c-contact_item">
-								<h1 class="o-h1 -color">Vous représentez <br>une ville et désirez faire <br>l’essai de memo?</h1>
+								<h1 class="o-h1 -color">
+									Do you represent <br>a city or town and wish <br>to try out memo?
+								</h1>
 								<p>
-									Contactez dès maintenant un de nos représentants pour en connaître davantage sur ce service et pour obtenir une demo gratuite. Coordonnez vos opérations en temps réel et rehaussez l'expérience globale de votre ville pour vos citoyens avec memo.
+									Contact one of our representatives now to find out more about memo and obtain a free demonstration. Coordinate your operations in real time and raise your citizens’ overall user- experience with memo.
 								</p>
 							</div>
 							<div class="c-contact_item">
@@ -393,7 +399,7 @@
 									<div class="c-card_picture" style="background-image: url('modules/memo/assets/images/jeff.jpg');"></div>
 									<div class="c-card_content">
 										<p class="c-card_name">Jean-François Chainé</p>
-										<p class="c-card_role">Vice-Président</p>
+										<p class="c-card_role">Vice-President</p>
 										<hr>
 										<p class="c-card_number">(514) 266 6393</p>
 										<a class="c-card_email" href="mailto:jeff@locomotive.ca">jeff@locomotive.ca</a>
@@ -403,7 +409,7 @@
 									<div class="c-card_picture" style="background-image: url('modules/memo/assets/images/chuck.jpg');"></div>
 									<div class="c-card_content">
 										<p class="c-card_name">Charles Dumas</p>
-										<p class="c-card_role">Développement des affaires</p>
+										<p class="c-card_role">Business development</p>
 										<hr>
 										<p class="c-card_number">(514) 705 4888</p>
 										<a class="c-card_email" href="mailto:charles@locomotive.ca">charles@locomotive.ca</a>
@@ -418,11 +424,11 @@
 			<footer class="o-section -color">
 				<div class="o-container">
 					<div class="c-footer">
-						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Propulsé par Locomotive.ca</p>
-						<a class="c-footer_logo u-zoomIn js-wow" href="http://locomotive.ca" data-wow-delay="0.05s">
+						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Powered by Locomotive.ca</p>
+						<a class="c-footer_logo u-zoomIn js-wow" href="http://locomotive.ca/en/" data-wow-delay="0.05s">
 							<svg class="c-footer_logo_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#locomotive"></use></svg>
 						</a>
-						<p class="c-footer_text u-slideInLeftSmall js-wow" data-wow-delay="0.1s">Tous droits réservés © 2015</p>
+						<p class="c-footer_text u-slideInLeftSmall js-wow" data-wow-delay="0.1s">All rights reserved © 2015</p>
 					</div>
 				</div>
 			</footer>

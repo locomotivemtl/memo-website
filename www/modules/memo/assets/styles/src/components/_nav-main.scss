@@ -15,7 +15,7 @@
 		z-index: 800;
 		padding-top: 120px;
 		transform: translateX(0);
-		transition: transform $speed-slow;
+		transition: transform 0.45s;
 
 		.has-nav-open & {
 			transform: translateX(100%);
@@ -81,7 +81,7 @@
 		border-bottom: 2px solid $white;
 		transform: scaleX(0);
 		transform-origin: center left;
-		transition: transform $speed-slow;
+		transition: transform $speed;
 	}
 
 	.c-nav-main_link:hover & {
