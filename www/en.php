@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#4f89e9">
-		<title>memo</title>
+		<title>memo | Instant communication between a city and its citizens</title>
 
 		<link rel="apple-touch-icon" href="modules/memo/assets/images/apple-touch-icon.png">
 		<link rel="icon" href="modules/memo/assets/images/favicon.png">
