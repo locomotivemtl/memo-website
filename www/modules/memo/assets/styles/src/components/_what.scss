@@ -41,20 +41,20 @@
 	z-index: 2;
 
 	@media (max-width: $to-small) {
-		width: 260px;
+		width: 250px;
 		margin-bottom: 50px;
 	}
 }
 
 .c-what_circle {
-	&:nth-child(1) {
+	&.-text {
 		.c-circle-icon_image {
 			margin-left: em(10px);
 		}
 	}
 
 	@media (max-width: $to-small) {
-		margin-top: 30px;
+		margin-top: 15px;
 	}
 
 	/* @media (min-width: $from-small) and (max-width: $to-medium) {
@@ -64,6 +64,15 @@
 	@media (max-width: $to-small) {
 		display: inline-block;
 		font-size: 6.5px;
+
+		&.-text {
+			position: relative;
+			left: 69px;
+		}
+
+		&.-email {
+			margin-left: 27px;
+		}
 	}
 
 	@media (min-width: $from-small) {
@@ -94,13 +103,13 @@
 	}
 
 	&:nth-child(2) {
-		@media (max-width: $to-small) {
+		/* @media (max-width: $to-small) {
 			position: relative;
 		}
 
 		@media (max-width: $to-small) {
 			top: 60px;
-		}
+		} */
 
 		/* @media (min-width: $from-small) and (max-width: $to-medium) {
 			top: 150px;
