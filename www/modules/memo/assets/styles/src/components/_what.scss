@@ -37,9 +37,12 @@
 }
 
 .c-what_circles {
+	position: relative;
+	z-index: 2;
+
 	@media (max-width: $to-small) {
-		margin-top: 30px;
-		width: 180px;
+		width: 260px;
+		margin-bottom: 50px;
 	}
 }
 
@@ -60,7 +63,7 @@
 
 	@media (max-width: $to-small) {
 		display: inline-block;
-		font-size: 5px;
+		font-size: 6.5px;
 	}
 
 	@media (min-width: $from-small) {

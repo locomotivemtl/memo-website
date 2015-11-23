@@ -107,6 +107,29 @@
 
 				<section class="c-what o-section" id="about">
 					<div class="o-container -small">
+						<div class="c-what_circles">
+							<div class="c-what_circle -text">
+								<div class="c-circle-icon">
+									<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-text_background.jpg')"></div>
+									<div class="c-circle-icon_border u-bounceIn js-wow"></div>
+									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-text"></use></svg>
+								</div>
+							</div>
+							<div class="c-what_circle -voice">
+								<div class="c-circle-icon">
+									<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
+									<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.1s"></div>
+									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-voice"></use></svg>
+								</div>
+							</div>
+							<div class="c-what_circle -email">
+								<div class="c-circle-icon">
+									<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-email_background.jpg')"></div>
+									<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.2s"></div>
+									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-email"></use></svg>
+								</div>
+							</div>
+						</div>
 						<div class="c-what_content">
 							<div class="c-what_text">
 								<h1 class="o-h1 -color">
@@ -126,29 +149,6 @@
 									</span>
 									Features
 								</a>
-							</div>
-							<div class="c-what_circles">
-								<div class="c-what_circle -text">
-									<div class="c-circle-icon">
-										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-text_background.jpg')"></div>
-										<div class="c-circle-icon_border u-bounceIn js-wow"></div>
-										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-text"></use></svg>
-									</div>
-								</div>
-								<div class="c-what_circle -voice">
-									<div class="c-circle-icon">
-										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-voice_background.jpg')"></div>
-										<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.1s"></div>
-										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-voice"></use></svg>
-									</div>
-								</div>
-								<div class="c-what_circle -email">
-									<div class="c-circle-icon">
-										<div class="c-circle-icon_background" style="background-image: url('modules/memo/assets/images/circle-email_background.jpg')"></div>
-										<div class="c-circle-icon_border u-bounceIn js-wow" data-wow-delay="0.2s"></div>
-										<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-email"></use></svg>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -343,7 +343,7 @@
 								</p>
 								<div class="c-quote_picture u-zoomIn js-wow" style="background-image: url('modules/memo/assets/images/jeff.jpg');" data-wow-delay="0.1s"></div>
 								<p class="c-quote_author">
-									Jean-François <br>Chainé
+									Jean-François Chainé
 								</p>
 								<p class="c-quote_role">
 									Vice-president, Locomotive

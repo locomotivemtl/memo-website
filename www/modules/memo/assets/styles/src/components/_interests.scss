@@ -5,7 +5,7 @@
 	text-align: center;
 
 	@media (max-width: $to-small) {
-		padding: 90px 0 40px 0;
+		padding: 85px 0 30px 0;
 	}
 
 	@media (min-width: $from-small) and (max-width: $to-medium) {
@@ -28,7 +28,7 @@
 	text-align: center;
 
 	@media (max-width: $to-small) {
-		width: span(1/7);
+		width: span(1/5);
 	}
 
 	@media (min-width: $from-small) and (max-width: $to-medium) {
