@@ -113,7 +113,7 @@
 									<svg class="c-circle-icon_image" role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#icon-text"></use></svg>
 								</div>
 							</div>
-							<div class="c-what_circle">
+							<div class="c-what_circle -hidden">
 								<div class="c-circle-icon">
 
 								</div>

@@ -53,6 +53,10 @@
 		}
 	}
 
+	&.-hidden {
+		visibility: hidden;
+	}
+
 	@media (max-width: $to-small) {
 		margin-top: 15px;
 	}
