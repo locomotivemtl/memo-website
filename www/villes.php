@@ -51,15 +51,90 @@
 			</div>
 			<div class="o-layout_main">
 				<div class="o-block-grid o-grid">
-					<?php for ($i=1; $i < 13; $i++) { ?>
-					<div class="o-block-grid_item">
-						<a class="c-block" href="#" target="_blank">
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.5s">
+						<a class="c-block" href="https://alertescitoyennes.com/cdn-ndg/www/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_<?php echo $i; ?>.svg" alt="">
+								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Montréal - Côte-des-Neiges–Notre-Dame-de-Grâce">
 							</span>
 						</a>
 					</div>
-					<?php } ?>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.7s">
+						<a class="c-block" href="https://alertescitoyennes.com/sud-ouest/www/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_2.svg" alt="Ville de Montréal - Le Sud-Ouest">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.8s">
+						<a class="c-block" href="https://candiacendirect.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_3.svg" alt="Ville de Candiac">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.9s">
+						<a class="c-block" href="https://infocitoyen.drummondville.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_4.svg" alt="Ville de Drummondville">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.0s">
+						<a class="c-block" href="#" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_5.svg" alt="Ville de Pincourt">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.1s">
+						<a class="c-block" href="https://alertes.saint-constant.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_6.svg" alt="Ville de Saint-Constant">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.2s">
+						<a class="c-block" href="https://ville.sainte-julie.qc.ca/msj/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_7.svg" alt="Ville de Sainte-Julie">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.3s">
+						<a class="c-block" href="https://stationnementdenuit.ca/troisrivieres/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_8.svg" alt="Ville de Trois-Rivières">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.4s">
+						<a class="c-block" href="https://govillemo.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_9.svg" alt="Ville de Mont-Royal">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.5s">
+						<a class="c-block" href="http://opark.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_10.svg" alt="Ville d'Otterburn Park">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.6s">
+						<a class="c-block" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_11.svg" alt="Ville de Saint-Augustin-de-Desmaures">
+							</span>
+						</a>
+					</div>
+					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.7s">
+						<a class="c-block" href="#" target="_blank">
+							<span class="c-block_image">
+								<img src="modules/memo/assets/images/cities/logo_12.svg" alt="Ville de Saint-Rémi">
+							</span>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
