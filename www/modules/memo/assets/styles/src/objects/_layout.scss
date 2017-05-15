@@ -1,0 +1,30 @@
+// ==========================================================================
+// Layout
+// ==========================================================================
+.o-layout {
+	text-align: right;
+}
+
+.o-layout_header {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 25%;
+	background-color: $main-color;
+	text-align: left;
+
+	@media (max-width: $to-huge) {
+		padding: 0 3%;
+	}
+
+	@media (min-width: $from-huge) {
+		padding: 0 4%;
+	}
+}
+
+.o-layout_main {
+	display: inline-block;
+	text-align: left;
+	width: 75%;
+}

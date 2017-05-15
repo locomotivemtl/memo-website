@@ -8,7 +8,7 @@ module.exports = {
 			]
 		},
 		options: {
-			proxy: "localhost",
+			proxy: "memo-website.dev",
 			watchTask: true,
 			notify: false
 		}

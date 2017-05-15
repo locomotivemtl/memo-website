@@ -5,9 +5,8 @@
 	@include grid;
 	background-color: $white;
 	height: rem(200px);
-	border-radius: 4px;
+	border-radius: $radius;
 	margin-bottom: rem(16px);
-	padding: rem(38px) rem(30px);
 	color: $color-dark;
 }
 

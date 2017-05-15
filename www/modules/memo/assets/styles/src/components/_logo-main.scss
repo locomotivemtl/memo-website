@@ -7,6 +7,11 @@
 	height: 100%;
 	@include flex-center;
 	z-index: 900;
+
+	&.-noflex {
+		display: block;
+		@include vertical-center;
+	}
 }
 
 .c-logo-main_wrap {

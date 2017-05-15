@@ -1,0 +1,29 @@
+// ==========================================================================
+// Block
+// ==========================================================================
+.c-block {
+	display: block;
+	background-color: $white;
+	// border-radius: $radius;
+	text-align: center;
+	height: 100%;
+	padding: 14% 29%;
+	transition: background-color $speed;
+
+	&:hover {
+		background-color: darken($white, 5%);
+	}
+}
+
+.c-block_image {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	@include vertical-center;
+
+	img {
+		width: 100%;
+		height: auto;
+		max-height: 100%;
+	}
+}
