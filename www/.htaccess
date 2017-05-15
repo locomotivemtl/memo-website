@@ -1,5 +1,12 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-ErrorDocument 404 /404
+    <IfModule mod_vhost_alias.c>
+        RewriteBase /
+    </IfModule>
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+    ErrorDocument 404 /404
+</IfModule>
