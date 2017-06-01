@@ -20,7 +20,7 @@
 		<div class="o-layout">
 			<div class="o-layout_header -loco">
 				<header class="c-header-main">
-					<a class="c-logo-main -noflex" href="/">
+					<a class="c-logo-main -noflex" href="https://locomotive.ca/">
 						<div class="c-logo-main_wrap">
 							<span class="c-logo-main_loco u-fadeIn js-wow" data-wow-delay="0.6s">
 								<svg role="img"><use xlink:href="modules/memo/assets/images/dist/svgs.svg#locomotive"></use></svg>
@@ -34,7 +34,7 @@
 					<div class="c-home_content">
 						<h1 class="o-h1 u-fadeInUpSmall js-wow" data-wow-delay="0.8s">Des portails citoyens uniques et modernes</h1>
 						<p class="o-text u-fadeInUpSmall js-wow" data-wow-delay="1.0s">
-							Simplifiez votre communication et faites rayonner votre ville.
+							Simplifiez votre communication <br>et faites rayonner votre ville.
 						</p>
 						<a class="o-button -white -arrow u-fadeInUpSmall js-wow" href="https://locomotive.ca/" data-wow-delay="1.3s">
 							<span class="o-button_arrow">

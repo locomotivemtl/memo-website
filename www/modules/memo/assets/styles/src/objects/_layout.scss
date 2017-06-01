@@ -3,6 +3,8 @@
 // ==========================================================================
 .o-layout {
 	text-align: right;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .o-layout_header {
@@ -32,4 +34,5 @@
 	display: inline-block;
 	text-align: left;
 	width: 75%;
+	height: 100%;
 }

@@ -3,8 +3,8 @@
 // ==========================================================================
 .o-block-grid {
 	@include grid;
-	height: 100vh;
 	margin-left: -1px;
+	height: 100%;
 }
 
 .o-block-grid_item {
