@@ -38,6 +38,10 @@ h1, .o-h1 {
 	.o-h_underline {
 		border-bottom-width: 3px;
 	}
+
+	.o-layout_header.-loco & {
+		font-weight: $normal;
+	}
 }
 
 h2, .o-h2 {

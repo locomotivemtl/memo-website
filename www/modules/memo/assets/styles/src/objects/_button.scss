@@ -44,6 +44,15 @@
 			background-color: $white;
 		}
 	}
+
+	.o-layout_header.-loco & {
+		border-radius: 0;
+		padding-left: rem(30px);
+
+		.o-button_arrow {
+			display: none;
+		}
+	}
 }
 
 .o-button_border {

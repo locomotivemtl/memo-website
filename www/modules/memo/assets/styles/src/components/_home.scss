@@ -31,6 +31,10 @@
 	position: relative;
 	width: rem(360px);
 	z-index: 700;
+
+	.o-layout_header.-loco & {
+		width: auto;
+	}
 }
 
 .c-home_devices {

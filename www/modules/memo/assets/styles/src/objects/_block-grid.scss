@@ -13,4 +13,8 @@
 	padding-left: 1px;
 	margin-bottom: 1px;
 	height: span(1/4);
+
+	.o-layout_main.-loco & {
+		height: span(1/3);
+	}
 }

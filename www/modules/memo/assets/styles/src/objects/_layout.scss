@@ -14,6 +14,11 @@
 	background-color: $main-color;
 	text-align: left;
 
+	&.-loco {
+		background-color: #4D84F1;
+		padding-right: 3%;
+	}
+
 	@media (max-width: $to-huge) {
 		padding: 0 3%;
 	}

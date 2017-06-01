@@ -5,6 +5,10 @@
 	&.-color {
 		background-color: $main-color;
 		color: $white;
+
+		.o-layout_header.-loco & {
+			background-color: transparent;
+		}
 	}
 
 	&.-white {

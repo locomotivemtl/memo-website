@@ -5,6 +5,10 @@
 	background-color: $main-color;
 	height: rem(180px);
 	font-size: rem(16px);
+
+	.o-layout_header.-loco & {
+		background-color: transparent;
+	}
 }
 
 .c-header-main_container {

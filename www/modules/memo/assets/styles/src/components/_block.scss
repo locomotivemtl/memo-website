@@ -13,6 +13,10 @@
 	&:hover {
 		background-color: darken($white, 5%);
 	}
+
+	.o-layout_main.-loco & {
+		padding: 21% 24%;
+	}
 }
 
 .c-block_image {
