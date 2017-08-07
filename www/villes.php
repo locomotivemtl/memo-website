@@ -80,7 +80,7 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.0s">
-						<a class="c-block" href="#" target="_blank">
+						<a class="c-block" href="https://infop.ca/" target="_blank">
 							<span class="c-block_image">
 								<img src="modules/memo/assets/images/cities/logo_5.svg" alt="Ville de Pincourt">
 							</span>
