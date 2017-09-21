@@ -33,7 +33,7 @@
 				</header>
 
 			<main>
-				<section class="c-home o-section -color">
+				<section class="c-home o-section -color -side">
 					<div class="c-home_content">
 						<h1 class="o-h1 u-fadeInUpSmall js-wow" data-wow-delay="0.8s">Communication <br>instantanée <br>de la ville <br>à ses citoyens</h1>
 						<p class="o-text u-fadeInUpSmall js-wow" data-wow-delay="1.0s">

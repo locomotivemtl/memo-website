@@ -2,37 +2,49 @@
 // Layout
 // ==========================================================================
 .o-layout {
-	text-align: right;
-	height: 100vh;
-	overflow: hidden;
+	@media (min-width: $from-small) {
+		text-align: right;
+		height: 100vh;
+		overflow: hidden;
+	}
 }
 
 .o-layout_header {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	width: 25%;
 	background-color: $main-color;
 	text-align: left;
 
-	&.-loco {
-		background-color: #4D84F1;
-		padding-right: 3%;
+	@media (max-width: $to-small) {
+		padding: 0 30px;
 	}
 
-	@media (max-width: $to-huge) {
+	@media (min-width: $from-small) {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 25%;
+	}
+
+	@media (min-width: $from-small) and (max-width: $to-huge) {
 		padding: 0 3%;
 	}
 
 	@media (min-width: $from-huge) {
 		padding: 0 4%;
 	}
+
+	&.-loco {
+		background-color: #4D84F1;
+		padding-right: 3%;
+	}
 }
 
 .o-layout_main {
 	display: inline-block;
 	text-align: left;
-	width: 75%;
 	height: 100%;
+
+	@media (min-width: $from-small) {
+		width: 75%;
+	}
 }

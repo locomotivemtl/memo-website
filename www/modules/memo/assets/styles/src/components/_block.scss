@@ -7,15 +7,22 @@
 	// border-radius: $radius;
 	text-align: center;
 	height: 100%;
-	padding: 14% 29%;
 	transition: background-color $speed;
+
+	@media (max-width: $to-small) {
+		padding: 14% 27%;
+	}
+
+	@media (min-width: $from-small) {
+		padding: 14% 29%;
+
+		.o-layout_main.-loco & {
+			padding: 21% 24%;
+		}
+	}
 
 	&:hover {
 		background-color: darken($white, 5%);
-	}
-
-	.o-layout_main.-loco & {
-		padding: 21% 24%;
 	}
 }
 

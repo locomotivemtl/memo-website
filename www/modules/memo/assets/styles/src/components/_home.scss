@@ -25,6 +25,17 @@
 		padding-top: rem(140px);
 		min-height: rem(860px);
 	}
+
+	&.-side {
+		@media (max-width: $to-small) {
+			padding-top: 0;
+			padding-bottom: 50px;
+		}
+
+		@media (min-width: $from-huge) {
+			padding-top: 14vh;
+		}
+	}
 }
 
 .c-home_content {
