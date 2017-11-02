@@ -52,16 +52,16 @@
 			<div class="o-layout_main">
 				<div class="o-block-grid o-grid">
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.5s">
-						<a class="c-block" href="https://alertescitoyennes.com/cdn-ndg/www/" target="_blank">
+						<a class="c-block" href="https://alertescitoyennes.com/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Montréal - Côte-des-Neiges–Notre-Dame-de-Grâce">
+								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Montréal">
 							</span>
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.7s">
-						<a class="c-block" href="https://alertescitoyennes.com/sud-ouest/www/" target="_blank">
+						<a class="c-block" href="https://www.ville.terrebonne.qc.ca/vic/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_2.svg" alt="Ville de Montréal - Le Sud-Ouest">
+								<img src="modules/memo/assets/images/cities/logo_14.svg" alt="Ville de Terrebonne">
 							</span>
 						</a>
 					</div>
@@ -129,7 +129,7 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.7s">
-						<a class="c-block" href="#" target="_blank">
+						<a class="c-block" href="https://infosaintremi.ca/" target="_blank">
 							<span class="c-block_image">
 								<img src="modules/memo/assets/images/cities/logo_12.svg" alt="Ville de Saint-Rémi">
 							</span>
