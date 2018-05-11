@@ -52,11 +52,11 @@
 			<div class="o-layout_main">
 				<div class="o-block-grid o-grid">
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.5s">
-						<a class="c-block" href="https://alertescitoyennes.com/" target="_blank">
+						<div class="c-block">
 							<span class="c-block_image">
 								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Montréal">
 							</span>
-						</a>
+						</div>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.7s">
 						<a class="c-block" href="https://www.ville.terrebonne.qc.ca/vic/" target="_blank">
