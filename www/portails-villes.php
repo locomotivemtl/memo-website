@@ -84,9 +84,9 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.1s">
-						<a class="c-block" href="https://www.ville.sainte-julie.qc.ca/fr/200/Accueil-Portail_web_de_la_Ville_de_Sainte-Julie" target="_blank">
+						<a class="c-block" href="https://www.villerdl.ca/fr" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_7.svg" alt="Ville de Sainte-Julie">
+								<img src="modules/memo/assets/images/cities/logo_17.svg" alt="Ville de Rivière-du-Loup">
 							</span>
 						</a>
 					</div>
