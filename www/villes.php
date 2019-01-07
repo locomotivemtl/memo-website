@@ -52,11 +52,11 @@
 			<div class="o-layout_main">
 				<div class="o-block-grid o-grid">
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.5s">
-						<div class="c-block">
+						<a class="c-block" href="https://app.monsherbrooke.ca/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Montréal">
+								<img src="modules/memo/assets/images/cities/logo_1.svg" alt="Ville de Sherbrooke">
 							</span>
-						</div>
+						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.7s">
 						<a class="c-block" href="https://www.ville.terrebonne.qc.ca/vic/" target="_blank">
@@ -80,7 +80,7 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.0s">
-						<a class="c-block" href="https://infop.ca/" target="_blank">
+						<a class="c-block" href="https://hop.repentigny.info/" target="_blank">
 							<span class="c-block_image">
 								<img src="modules/memo/assets/images/cities/logo_5.svg" alt="Ville de Pincourt">
 							</span>
@@ -115,9 +115,9 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.5s">
-						<a class="c-block" href="http://opark.ca/" target="_blank">
+						<a class="c-block" href="https://avisj.ca/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_10.svg" alt="Ville d'Otterburn Park">
+								<img src="modules/memo/assets/images/cities/logo_10.svg" alt="Ville de Saint-Jérôme">
 							</span>
 						</a>
 					</div>

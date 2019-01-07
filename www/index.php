@@ -371,10 +371,10 @@
 									<a class="c-clients_link u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img class="c-clients_image" src="modules/memo/assets/images/client_03.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.alertescitoyennes.com/montreal/" data-wow-delay="0.20s"><img class="c-clients_image" src="modules/memo/assets/images/client_04.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://app.monsherbrooke.ca/" data-wow-delay="0.20s"><img class="c-clients_image" src="modules/memo/assets/images/client_04.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://alertes-citoyens.ville.st-augustin.qc.ca/" data-wow-delay="0.25s"><img class="c-clients_image" src="modules/memo/assets/images/client_05.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://hop.repentigny.info/" data-wow-delay="0.25s"><img class="c-clients_image" src="modules/memo/assets/images/client_05.png"></a>
 								</li>
 								<li class="c-clients_item">
 									<a class="c-clients_link u-fadeIn js-wow" href="http://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img class="c-clients_image" src="modules/memo/assets/images/client_06.png"></a>
