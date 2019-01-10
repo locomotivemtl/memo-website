@@ -58,7 +58,7 @@
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="1.7s">
 						<a class="c-block" href="http://www.villepincourt.qc.ca/" target="_blank">
 							<span class="c-block_image">
-								<img src="modules/memo/assets/images/cities/logo_5.svg" alt="Ville de Pincourt">
+								<img src="modules/memo/assets/images/cities/logo_18.svg" alt="Ville de Pincourt">
 							</span>
 						</a>
 					</div>

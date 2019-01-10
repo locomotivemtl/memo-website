@@ -101,7 +101,7 @@
 						</a>
 					</div>
 					<div class="o-block-grid_item u-fadeInUpSmall js-wow" data-wow-delay="2.3s">
-						<a class="c-block" href="https://stationnementdenuit.ca/troisrivieres/" target="_blank">
+						<a class="c-block" href="https://alerte.v3r.net/" target="_blank">
 							<span class="c-block_image">
 								<img src="modules/memo/assets/images/cities/logo_8.svg" alt="Ville de Trois-Rivières">
 							</span>
