@@ -1,5 +1,13 @@
+# Package Managers
+# -------
+
 node_modules/
-vendor
-composer.lock
-www/charcoal
-www/modules/boilerplate/npm-debug.log
+vendor/
+composer.phar
+
+# Logging
+# -------
+
+*.log
+error_log
+logs/
