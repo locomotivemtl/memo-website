@@ -5,6 +5,8 @@
         RewriteBase /
     </IfModule>
 
+    Redirect 301 /fr    https://memo.locomotive.ca
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
