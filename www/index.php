@@ -6,7 +6,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#4F89E9">
+
 		<title>memo | Communication instantanée de la ville à ses citoyens</title>
+
+        <link rel="canonical" href="https://memo.locomotive.ca/fr" hreflang="fr">
+        <link rel="alternate" href="https://memo.locomotive.ca/fr" hreflang="fr" title="Français">
+        <link rel="alternate" href="https://memo.locomotive.ca/en" hreflang="en" title="English">
 
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 		<link rel="icon" href="assets/images/favicon.png">
