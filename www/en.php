@@ -52,7 +52,7 @@
 								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="/" data-wow-delay="1.75s">
+								<a class="c-nav-main_link u-fadeIn js-wow" href="/" hreflang="fr" data-wow-delay="1.75s">
 									<span class="c-nav-main_title">FR</span>
 								</a>
 							</li>
@@ -424,7 +424,7 @@
 			<footer class="o-section -color">
 				<div class="o-container">
 					<div class="c-footer">
-						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Powered by Locomotive.ca</p>
+						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Powered by Locomotive Inc.</p>
 						<a class="c-footer_logo u-zoomIn js-wow" href="http://locomotive.ca/en/" data-wow-delay="0.05s">
 							<svg class="c-footer_logo_image" role="img"><use xlink:href="assets/images/sprite.svg#locomotive"></use></svg>
 						</a>

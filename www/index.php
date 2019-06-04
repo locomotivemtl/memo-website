@@ -52,7 +52,7 @@
 								</a>
 							</li>
 							<li class="c-nav-main_item">
-								<a class="c-nav-main_link u-fadeIn js-wow" href="en" data-wow-delay="1.75s">
+								<a class="c-nav-main_link u-fadeIn js-wow" href="en" hreflang="en" data-wow-delay="1.75s">
 									<span class="c-nav-main_title">EN</span>
 								</a>
 							</li>
@@ -349,7 +349,7 @@
 								<p class="c-quote_role">
 									Vice-président chez Locomotive
 								</p>
-								<a href="http://locomotive.ca">
+								<a href="https://locomotive.ca">
 									<svg class="c-quote_logo" role="img"><use xlink:href="assets/images/sprite.svg#locomotive"></use></svg>
 								</a>
 							</blockquote>
@@ -362,13 +362,13 @@
 						<div class="o-container">
 							<ul class="c-clients_list">
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.textotacl.com/" data-wow-delay="0.05s"><img class="c-clients_image" src="assets/images/clients/client_01.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://www.textotacl.com/" data-wow-delay="0.05s"><img class="c-clients_image" src="assets/images/clients/client_01.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.smsplumobile.com/" data-wow-delay="0.10s"><img class="c-clients_image" src="assets/images/clients/client_02.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://www.smsplumobile.com/" data-wow-delay="0.10s"><img class="c-clients_image" src="assets/images/clients/client_02.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://www.govillemo.ca/" data-wow-delay="0.15s"><img class="c-clients_image" src="assets/images/clients/client_03.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://www.govillemo.ca/" data-wow-delay="0.15s"><img class="c-clients_image" src="assets/images/clients/client_03.png"></a>
 								</li>
 								<li class="c-clients_item">
 									<a class="c-clients_link u-fadeIn js-wow" href="https://app.monsherbrooke.ca/" data-wow-delay="0.20s"><img class="c-clients_image" src="assets/images/clients/client_04.png"></a>
@@ -377,7 +377,7 @@
 									<a class="c-clients_link u-fadeIn js-wow" href="https://hop.repentigny.info/" data-wow-delay="0.25s"><img class="c-clients_image" src="assets/images/clients/client_05.png"></a>
 								</li>
 								<li class="c-clients_item">
-									<a class="c-clients_link u-fadeIn js-wow" href="http://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img class="c-clients_image" src="assets/images/clients/client_06.png"></a>
+									<a class="c-clients_link u-fadeIn js-wow" href="https://stationnementdenuit.ca/troisrivieres/" data-wow-delay="0.30s"><img class="c-clients_image" src="assets/images/clients/client_06.png"></a>
 								</li>
 							</ul>
 						</div>
@@ -423,8 +423,8 @@
 			<footer class="o-section -color">
 				<div class="o-container">
 					<div class="c-footer">
-						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Propulsé par Locomotive.ca</p>
-						<a class="c-footer_logo u-zoomIn js-wow" href="http://locomotive.ca" data-wow-delay="0.05s">
+						<p class="c-footer_text u-slideInRightSmall js-wow" data-wow-delay="0.1s">Propulsé par Locomotive Inc.</p>
+						<a class="c-footer_logo u-zoomIn js-wow" href="https://locomotive.ca" data-wow-delay="0.05s">
 							<svg class="c-footer_logo_image" role="img"><use xlink:href="assets/images/sprite.svg#locomotive"></use></svg>
 						</a>
 						<p class="c-footer_text u-slideInLeftSmall js-wow" data-wow-delay="0.1s">Tous droits réservés © <?php echo date('Y'); ?></p>
